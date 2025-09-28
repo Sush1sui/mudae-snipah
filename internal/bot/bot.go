@@ -29,7 +29,7 @@ func StartBot() {
         Status: "idle",
         Activities: []*discordgo.Activity{
             {
-                Name: "with Mudae!",
+                Name: "Mudae!",
                 Type: discordgo.ActivityTypeListening,
             },
         },
