@@ -1,0 +1,5002 @@
+[
+  {
+    "rank": 1,
+    "name": "zero two",
+    "kakera": 1065
+  },
+  {
+    "rank": 2,
+    "name": "hatsune miku",
+    "kakera": 1038
+  },
+  {
+    "rank": 3,
+    "name": "rem",
+    "kakera": 1049
+  },
+  {
+    "rank": 4,
+    "name": "megumin",
+    "kakera": 1033
+  },
+  {
+    "rank": 5,
+    "name": "rias gremory",
+    "kakera": 1003
+  },
+  {
+    "rank": 6,
+    "name": "saber",
+    "kakera": 994
+  },
+  {
+    "rank": 7,
+    "name": "mai sakurajima",
+    "kakera": 954
+  },
+  {
+    "rank": 8,
+    "name": "nami",
+    "kakera": 1003
+  },
+  {
+    "rank": 9,
+    "name": "power",
+    "kakera": 971
+  },
+  {
+    "rank": 10,
+    "name": "satoru gojo",
+    "kakera": 1008
+  },
+  {
+    "rank": 11,
+    "name": "asuna",
+    "kakera": 985
+  },
+  {
+    "rank": 12,
+    "name": "albedo",
+    "kakera": 925
+  },
+  {
+    "rank": 13,
+    "name": "mikasa ackerman",
+    "kakera": 950
+  },
+  {
+    "rank": 14,
+    "name": "2b",
+    "kakera": 881
+  },
+  {
+    "rank": 15,
+    "name": "makima",
+    "kakera": 917
+  },
+  {
+    "rank": 16,
+    "name": "nezuko kamado",
+    "kakera": 945
+  },
+  {
+    "rank": 17,
+    "name": "nico robin",
+    "kakera": 895
+  },
+  {
+    "rank": 18,
+    "name": "miku nakano",
+    "kakera": 884
+  },
+  {
+    "rank": 19,
+    "name": "kirby",
+    "kakera": 788
+  },
+  {
+    "rank": 20,
+    "name": "violet evergarden",
+    "kakera": 854
+  },
+  {
+    "rank": 21,
+    "name": "emilia",
+    "kakera": 877
+  },
+  {
+    "rank": 22,
+    "name": "hange zoë",
+    "kakera": 746
+  },
+  {
+    "rank": 23,
+    "name": "aqua",
+    "kakera": 877
+  },
+  {
+    "rank": 24,
+    "name": "shinobu kochou",
+    "kakera": 844
+  },
+  {
+    "rank": 25,
+    "name": "akame",
+    "kakera": 847
+  },
+  {
+    "rank": 26,
+    "name": "marin kitagawa",
+    "kakera": 780
+  },
+  {
+    "rank": 27,
+    "name": "monkey d. luffy",
+    "kakera": 914
+  },
+  {
+    "rank": 28,
+    "name": "ram",
+    "kakera": 884
+  },
+  {
+    "rank": 29,
+    "name": "nino nakano",
+    "kakera": 765
+  },
+  {
+    "rank": 30,
+    "name": "rin tohsaka",
+    "kakera": 773
+  },
+  {
+    "rank": 31,
+    "name": "yumeko jabami",
+    "kakera": 811
+  },
+  {
+    "rank": 32,
+    "name": "esdeath",
+    "kakera": 799
+  },
+  {
+    "rank": 33,
+    "name": "himiko toga",
+    "kakera": 791
+  },
+  {
+    "rank": 34,
+    "name": "akeno himejima",
+    "kakera": 758
+  },
+  {
+    "rank": 35,
+    "name": "chika fujiwara",
+    "kakera": 773
+  },
+  {
+    "rank": 36,
+    "name": "kaguya shinomiya",
+    "kakera": 743
+  },
+  {
+    "rank": 37,
+    "name": "kurumi tokisaki",
+    "kakera": 721
+  },
+  {
+    "rank": 38,
+    "name": "roronoa zoro",
+    "kakera": 844
+  },
+  {
+    "rank": 39,
+    "name": "yor forger",
+    "kakera": 719
+  },
+  {
+    "rank": 40,
+    "name": "rei ayanami",
+    "kakera": 708
+  },
+  {
+    "rank": 41,
+    "name": "frieren",
+    "kakera": 700
+  },
+  {
+    "rank": 42,
+    "name": "nobara kugisaki",
+    "kakera": 694
+  },
+  {
+    "rank": 43,
+    "name": "asuka langley souryuu",
+    "kakera": 632
+  },
+  {
+    "rank": 44,
+    "name": "bongo cat",
+    "kakera": 603
+  },
+  {
+    "rank": 45,
+    "name": "erza scarlet",
+    "kakera": 714
+  },
+  {
+    "rank": 46,
+    "name": "hinata hyuuga",
+    "kakera": 748
+  },
+  {
+    "rank": 47,
+    "name": "mitsuri kanroji",
+    "kakera": 678
+  },
+  {
+    "rank": 48,
+    "name": "levi",
+    "kakera": 802
+  },
+  {
+    "rank": 49,
+    "name": "yamato",
+    "kakera": 540
+  },
+  {
+    "rank": 50,
+    "name": "komi shouko",
+    "kakera": 669
+  },
+  {
+    "rank": 51,
+    "name": "ai hoshino",
+    "kakera": 555
+  },
+  {
+    "rank": 52,
+    "name": "sukuna",
+    "kakera": 775
+  },
+  {
+    "rank": 53,
+    "name": "gawr gura",
+    "kakera": 653
+  },
+  {
+    "rank": 54,
+    "name": "maki zenin",
+    "kakera": 667
+  },
+  {
+    "rank": 55,
+    "name": "shiro",
+    "kakera": 734
+  },
+  {
+    "rank": 56,
+    "name": "darkness",
+    "kakera": 694
+  },
+  {
+    "rank": 57,
+    "name": "ai hayasaka",
+    "kakera": 605
+  },
+  {
+    "rank": 58,
+    "name": "boa hancock",
+    "kakera": 626
+  },
+  {
+    "rank": 59,
+    "name": "tohru",
+    "kakera": 647
+  },
+  {
+    "rank": 60,
+    "name": "sinon",
+    "kakera": 650
+  },
+  {
+    "rank": 61,
+    "name": "yuji itadori",
+    "kakera": 716
+  },
+  {
+    "rank": 62,
+    "name": "c.c.",
+    "kakera": 629
+  },
+  {
+    "rank": 63,
+    "name": "truck",
+    "kakera": 468
+  },
+  {
+    "rank": 64,
+    "name": "neferpitou",
+    "kakera": 476
+  },
+  {
+    "rank": 65,
+    "name": "raphtalia",
+    "kakera": 662
+  },
+  {
+    "rank": 66,
+    "name": "eren jaeger",
+    "kakera": 719
+  },
+  {
+    "rank": 67,
+    "name": "kurisu makise",
+    "kakera": 606
+  },
+  {
+    "rank": 68,
+    "name": "ochako uraraka",
+    "kakera": 615
+  },
+  {
+    "rank": 69,
+    "name": "sanji",
+    "kakera": 714
+  },
+  {
+    "rank": 70,
+    "name": "chiaki nanami",
+    "kakera": 603
+  },
+  {
+    "rank": 71,
+    "name": "jinx",
+    "kakera": 582
+  },
+  {
+    "rank": 72,
+    "name": "killua zoldyck",
+    "kakera": 712
+  },
+  {
+    "rank": 73,
+    "name": "rikka takanashi",
+    "kakera": 560
+  },
+  {
+    "rank": 74,
+    "name": "itsuki nakano",
+    "kakera": 541
+  },
+  {
+    "rank": 75,
+    "name": "lucy heartfilia",
+    "kakera": 569
+  },
+  {
+    "rank": 76,
+    "name": "ryuuko matoi",
+    "kakera": 573
+  },
+  {
+    "rank": 77,
+    "name": "nyan cat",
+    "kakera": 374
+  },
+  {
+    "rank": 78,
+    "name": "tatsumaki",
+    "kakera": 572
+  },
+  {
+    "rank": 79,
+    "name": "yotsuba nakano",
+    "kakera": 527
+  },
+  {
+    "rank": 80,
+    "name": "reze",
+    "kakera": 567
+  },
+  {
+    "rank": 81,
+    "name": "misa amane",
+    "kakera": 577
+  },
+  {
+    "rank": 82,
+    "name": "kanna kamui",
+    "kakera": 601
+  },
+  {
+    "rank": 83,
+    "name": "mirko",
+    "kakera": 531
+  },
+  {
+    "rank": 84,
+    "name": "megumi fushiguro",
+    "kakera": 620
+  },
+  {
+    "rank": 85,
+    "name": "rukia kuchiki",
+    "kakera": 541
+  },
+  {
+    "rank": 86,
+    "name": "jolyne cujoh",
+    "kakera": 577
+  },
+  {
+    "rank": 87,
+    "name": "venom",
+    "kakera": 412
+  },
+  {
+    "rank": 88,
+    "name": "joker",
+    "kakera": 626
+  },
+  {
+    "rank": 89,
+    "name": "fubuki",
+    "kakera": 531
+  },
+  {
+    "rank": 90,
+    "name": "yoruichi shihōin",
+    "kakera": 544
+  },
+  {
+    "rank": 91,
+    "name": "naruto uzumaki",
+    "kakera": 714
+  },
+  {
+    "rank": 92,
+    "name": "nagatoro",
+    "kakera": 524
+  },
+  {
+    "rank": 93,
+    "name": "crona",
+    "kakera": 433
+  },
+  {
+    "rank": 94,
+    "name": "ken kaneki",
+    "kakera": 655
+  },
+  {
+    "rank": 95,
+    "name": "osamu dazai",
+    "kakera": 623
+  },
+  {
+    "rank": 96,
+    "name": "touka kirishima",
+    "kakera": 513
+  },
+  {
+    "rank": 97,
+    "name": "kyouko hori",
+    "kakera": 528
+  },
+  {
+    "rank": 98,
+    "name": "lucy",
+    "kakera": 475
+  },
+  {
+    "rank": 99,
+    "name": "toji fushiguro",
+    "kakera": 582
+  },
+  {
+    "rank": 100,
+    "name": "kento nanami",
+    "kakera": 558
+  },
+  {
+    "rank": 101,
+    "name": "son goku",
+    "kakera": 690
+  },
+  {
+    "rank": 102,
+    "name": "misato katsuragi",
+    "kakera": 464
+  },
+  {
+    "rank": 103,
+    "name": "annie leonhart",
+    "kakera": 452
+  },
+  {
+    "rank": 104,
+    "name": "katsuki bakugou",
+    "kakera": 606
+  },
+  {
+    "rank": 105,
+    "name": "l",
+    "kakera": 660
+  },
+  {
+    "rank": 106,
+    "name": "denji",
+    "kakera": 624
+  },
+  {
+    "rank": 107,
+    "name": "chizuru ichinose",
+    "kakera": 512
+  },
+  {
+    "rank": 108,
+    "name": "artoria pendragon alter",
+    "kakera": 421
+  },
+  {
+    "rank": 109,
+    "name": "suguru geto",
+    "kakera": 555
+  },
+  {
+    "rank": 110,
+    "name": "tsuyu asui",
+    "kakera": 492
+  },
+  {
+    "rank": 111,
+    "name": "dio brando",
+    "kakera": 653
+  },
+  {
+    "rank": 112,
+    "name": "anya forger",
+    "kakera": 505
+  },
+  {
+    "rank": 113,
+    "name": "guts",
+    "kakera": 602
+  },
+  {
+    "rank": 114,
+    "name": "tanjirou kamado",
+    "kakera": 617
+  },
+  {
+    "rank": 115,
+    "name": "hitori gotou",
+    "kakera": 458
+  },
+  {
+    "rank": 116,
+    "name": "sasha braus",
+    "kakera": 483
+  },
+  {
+    "rank": 117,
+    "name": "ada wong",
+    "kakera": 408
+  },
+  {
+    "rank": 118,
+    "name": "taiga aisaka",
+    "kakera": 496
+  },
+  {
+    "rank": 119,
+    "name": "bmo",
+    "kakera": 345
+  },
+  {
+    "rank": 120,
+    "name": "echidna",
+    "kakera": 502
+  },
+  {
+    "rank": 121,
+    "name": "junko enoshima",
+    "kakera": 482
+  },
+  {
+    "rank": 122,
+    "name": "yuno gasai",
+    "kakera": 515
+  },
+  {
+    "rank": 123,
+    "name": "leon s. kennedy",
+    "kakera": 475
+  },
+  {
+    "rank": 124,
+    "name": "ichika nakano",
+    "kakera": 454
+  },
+  {
+    "rank": 125,
+    "name": "shouko nishimiya",
+    "kakera": 475
+  },
+  {
+    "rank": 126,
+    "name": "kanao tsuyuri",
+    "kakera": 433
+  },
+  {
+    "rank": 127,
+    "name": "shoto todoroki",
+    "kakera": 582
+  },
+  {
+    "rank": 128,
+    "name": "tsunade",
+    "kakera": 514
+  },
+  {
+    "rank": 129,
+    "name": "kobeni higashiyama",
+    "kakera": 429
+  },
+  {
+    "rank": 130,
+    "name": "futaba sakura",
+    "kakera": 457
+  },
+  {
+    "rank": 131,
+    "name": "kyoko kirigiri",
+    "kakera": 493
+  },
+  {
+    "rank": 132,
+    "name": "lucoa",
+    "kakera": 471
+  },
+  {
+    "rank": 133,
+    "name": "jotaro kujo",
+    "kakera": 599
+  },
+  {
+    "rank": 134,
+    "name": "asuka langley shikinami",
+    "kakera": 245
+  },
+  {
+    "rank": 135,
+    "name": "hu tao",
+    "kakera": 605
+  },
+  {
+    "rank": 136,
+    "name": "hestia",
+    "kakera": 514
+  },
+  {
+    "rank": 137,
+    "name": "usagi tsukino",
+    "kakera": 417
+  },
+  {
+    "rank": 138,
+    "name": "shinobu oshino",
+    "kakera": 468
+  },
+  {
+    "rank": 139,
+    "name": "godzilla",
+    "kakera": 337
+  },
+  {
+    "rank": 140,
+    "name": "kaori miyazono",
+    "kakera": 440
+  },
+  {
+    "rank": 141,
+    "name": "momo yaoyorozu",
+    "kakera": 449
+  },
+  {
+    "rank": 142,
+    "name": "jeanne d'arc",
+    "kakera": 408
+  },
+  {
+    "rank": 143,
+    "name": "a2",
+    "kakera": 374
+  },
+  {
+    "rank": 144,
+    "name": "izuku midoriya",
+    "kakera": 573
+  },
+  {
+    "rank": 145,
+    "name": "roxy migurdia",
+    "kakera": 433
+  },
+  {
+    "rank": 146,
+    "name": "astolfo",
+    "kakera": 564
+  },
+  {
+    "rank": 147,
+    "name": "sasuke uchiha",
+    "kakera": 570
+  },
+  {
+    "rank": 148,
+    "name": "kyoujurou rengoku",
+    "kakera": 489
+  },
+  {
+    "rank": 149,
+    "name": "ishtar",
+    "kakera": 426
+  },
+  {
+    "rank": 150,
+    "name": "ai ohto",
+    "kakera": 393
+  },
+  {
+    "rank": 151,
+    "name": "sung jin",
+    "kakera": 517
+  },
+  {
+    "rank": 152,
+    "name": "himeno",
+    "kakera": 401
+  },
+  {
+    "rank": 153,
+    "name": "madoka kaname",
+    "kakera": 451
+  },
+  {
+    "rank": 154,
+    "name": "itachi uchiha",
+    "kakera": 545
+  },
+  {
+    "rank": 155,
+    "name": "aki hayakawa",
+    "kakera": 446
+  },
+  {
+    "rank": 156,
+    "name": "giyuu tomioka",
+    "kakera": 516
+  },
+  {
+    "rank": 157,
+    "name": "trollface",
+    "kakera": 221
+  },
+  {
+    "rank": 158,
+    "name": "marceline",
+    "kakera": 393
+  },
+  {
+    "rank": 159,
+    "name": "cynthia",
+    "kakera": 420
+  },
+  {
+    "rank": 160,
+    "name": "ann takamaki",
+    "kakera": 364
+  },
+  {
+    "rank": 161,
+    "name": "bowsette",
+    "kakera": 425
+  },
+  {
+    "rank": 162,
+    "name": "sakura haruno",
+    "kakera": 443
+  },
+  {
+    "rank": 163,
+    "name": "jeanne d'arc alter",
+    "kakera": 352
+  },
+  {
+    "rank": 164,
+    "name": "mori calliope",
+    "kakera": 407
+  },
+  {
+    "rank": 165,
+    "name": "orihime inoue",
+    "kakera": 387
+  },
+  {
+    "rank": 166,
+    "name": "tifa lockhart",
+    "kakera": 412
+  },
+  {
+    "rank": 167,
+    "name": "ichigo kurosaki",
+    "kakera": 493
+  },
+  {
+    "rank": 168,
+    "name": "alice synthesis thirty",
+    "kakera": 372
+  },
+  {
+    "rank": 169,
+    "name": "noelle silva",
+    "kakera": 418
+  },
+  {
+    "rank": 170,
+    "name": "sonic the hedgehog",
+    "kakera": 453
+  },
+  {
+    "rank": 171,
+    "name": "yukino yukinoshita",
+    "kakera": 427
+  },
+  {
+    "rank": 172,
+    "name": "raven",
+    "kakera": 430
+  },
+  {
+    "rank": 173,
+    "name": "kagamine rin",
+    "kakera": 395
+  },
+  {
+    "rank": 174,
+    "name": "kyouka jirou",
+    "kakera": 367
+  },
+  {
+    "rank": 175,
+    "name": "shadow the hedgehog",
+    "kakera": 413
+  },
+  {
+    "rank": 176,
+    "name": "cha hae",
+    "kakera": 365
+  },
+  {
+    "rank": 177,
+    "name": "nanika",
+    "kakera": 228
+  },
+  {
+    "rank": 178,
+    "name": "ghostface",
+    "kakera": 237
+  },
+  {
+    "rank": 179,
+    "name": "choso",
+    "kakera": 408
+  },
+  {
+    "rank": 180,
+    "name": "makoto niijima",
+    "kakera": 361
+  },
+  {
+    "rank": 181,
+    "name": "krista lenz",
+    "kakera": 369
+  },
+  {
+    "rank": 182,
+    "name": "bulma",
+    "kakera": 414
+  },
+  {
+    "rank": 183,
+    "name": "mewtwo",
+    "kakera": 242
+  },
+  {
+    "rank": 184,
+    "name": "hitagi senjougahara",
+    "kakera": 386
+  },
+  {
+    "rank": 185,
+    "name": "mary saotome",
+    "kakera": 390
+  },
+  {
+    "rank": 186,
+    "name": "portgas d. ace",
+    "kakera": 417
+  },
+  {
+    "rank": 187,
+    "name": "asa mitaka",
+    "kakera": 329
+  },
+  {
+    "rank": 188,
+    "name": "phosphophyllite",
+    "kakera": 310
+  },
+  {
+    "rank": 189,
+    "name": "erina nakiri",
+    "kakera": 429
+  },
+  {
+    "rank": 190,
+    "name": "yuta okkotsu",
+    "kakera": 416
+  },
+  {
+    "rank": 191,
+    "name": "jibril",
+    "kakera": 414
+  },
+  {
+    "rank": 192,
+    "name": "inugami korone",
+    "kakera": 378
+  },
+  {
+    "rank": 193,
+    "name": "tony tony chopper",
+    "kakera": 452
+  },
+  {
+    "rank": 194,
+    "name": "kakashi hatake",
+    "kakera": 476
+  },
+  {
+    "rank": 195,
+    "name": "ruby hoshino",
+    "kakera": 297
+  },
+  {
+    "rank": 196,
+    "name": "spider",
+    "kakera": 441
+  },
+  {
+    "rank": 197,
+    "name": "kurapika",
+    "kakera": 472
+  },
+  {
+    "rank": 198,
+    "name": "homura akemi",
+    "kakera": 388
+  },
+  {
+    "rank": 199,
+    "name": "yoru",
+    "kakera": 322
+  },
+  {
+    "rank": 200,
+    "name": "maomao",
+    "kakera": 389
+  },
+  {
+    "rank": 201,
+    "name": "vladilena milizé",
+    "kakera": 330
+  },
+  {
+    "rank": 202,
+    "name": "midnight",
+    "kakera": 330
+  },
+  {
+    "rank": 203,
+    "name": "amelia watson",
+    "kakera": 361
+  },
+  {
+    "rank": 204,
+    "name": "fern",
+    "kakera": 371
+  },
+  {
+    "rank": 205,
+    "name": "android 18",
+    "kakera": 330
+  },
+  {
+    "rank": 206,
+    "name": "ichigo",
+    "kakera": 427
+  },
+  {
+    "rank": 207,
+    "name": "eris boreas greyrat",
+    "kakera": 359
+  },
+  {
+    "rank": 208,
+    "name": "mina ashido",
+    "kakera": 352
+  },
+  {
+    "rank": 209,
+    "name": "houshou marine",
+    "kakera": 329
+  },
+  {
+    "rank": 210,
+    "name": "nejire hadou",
+    "kakera": 332
+  },
+  {
+    "rank": 211,
+    "name": "nazuna nanakusa",
+    "kakera": 313
+  },
+  {
+    "rank": 212,
+    "name": "doge",
+    "kakera": 277
+  },
+  {
+    "rank": 213,
+    "name": "inosuke hashibira",
+    "kakera": 450
+  },
+  {
+    "rank": 214,
+    "name": "ado",
+    "kakera": 335
+  },
+  {
+    "rank": 215,
+    "name": "vi",
+    "kakera": 335
+  },
+  {
+    "rank": 216,
+    "name": "kasane teto",
+    "kakera": 374
+  },
+  {
+    "rank": 217,
+    "name": "akane kurokawa",
+    "kakera": 260
+  },
+  {
+    "rank": 218,
+    "name": "black hanekawa",
+    "kakera": 262
+  },
+  {
+    "rank": 219,
+    "name": "aigis",
+    "kakera": 290
+  },
+  {
+    "rank": 220,
+    "name": "kana arima",
+    "kakera": 277
+  },
+  {
+    "rank": 221,
+    "name": "cloud strife",
+    "kakera": 383
+  },
+  {
+    "rank": 222,
+    "name": "light yagami",
+    "kakera": 461
+  },
+  {
+    "rank": 223,
+    "name": "dante",
+    "kakera": 404
+  },
+  {
+    "rank": 224,
+    "name": "tamaki kotatsu",
+    "kakera": 352
+  },
+  {
+    "rank": 225,
+    "name": "mitsuha miyamizu",
+    "kakera": 328
+  },
+  {
+    "rank": 226,
+    "name": "howl",
+    "kakera": 414
+  },
+  {
+    "rank": 227,
+    "name": "rio futaba",
+    "kakera": 379
+  },
+  {
+    "rank": 228,
+    "name": "harley quinn harleen quinzel",
+    "kakera": 298
+  },
+  {
+    "rank": 229,
+    "name": "gon freecss",
+    "kakera": 459
+  },
+  {
+    "rank": 230,
+    "name": "no",
+    "kakera": 194
+  },
+  {
+    "rank": 231,
+    "name": "shizuku murasaki",
+    "kakera": 287
+  },
+  {
+    "rank": 232,
+    "name": "faye valentine",
+    "kakera": 314
+  },
+  {
+    "rank": 233,
+    "name": "maka albarn",
+    "kakera": 349
+  },
+  {
+    "rank": 234,
+    "name": "raiden shogun",
+    "kakera": 463
+  },
+  {
+    "rank": 235,
+    "name": "mordred",
+    "kakera": 335
+  },
+  {
+    "rank": 236,
+    "name": "perona",
+    "kakera": 305
+  },
+  {
+    "rank": 237,
+    "name": "nao tomori",
+    "kakera": 370
+  },
+  {
+    "rank": 238,
+    "name": "hoshimachi suisei",
+    "kakera": 303
+  },
+  {
+    "rank": 239,
+    "name": "yui hirasawa",
+    "kakera": 303
+  },
+  {
+    "rank": 240,
+    "name": "nene yashiro",
+    "kakera": 357
+  },
+  {
+    "rank": 241,
+    "name": "armin arlert",
+    "kakera": 395
+  },
+  {
+    "rank": 242,
+    "name": "pieck finger",
+    "kakera": 313
+  },
+  {
+    "rank": 243,
+    "name": "tanya degurechaff",
+    "kakera": 307
+  },
+  {
+    "rank": 244,
+    "name": "zenitsu agatsuma",
+    "kakera": 429
+  },
+  {
+    "rank": 245,
+    "name": "megurine luka",
+    "kakera": 334
+  },
+  {
+    "rank": 246,
+    "name": "orochimaru",
+    "kakera": 226
+  },
+  {
+    "rank": 247,
+    "name": "ganyu",
+    "kakera": 450
+  },
+  {
+    "rank": 248,
+    "name": "batman bruce wayne",
+    "kakera": 401
+  },
+  {
+    "rank": 249,
+    "name": "yoko",
+    "kakera": 325
+  },
+  {
+    "rank": 250,
+    "name": "dabi",
+    "kakera": 420
+  },
+  {
+    "rank": 251,
+    "name": "mine",
+    "kakera": 344
+  },
+  {
+    "rank": 252,
+    "name": "koneko toujou",
+    "kakera": 330
+  },
+  {
+    "rank": 253,
+    "name": "eevee",
+    "kakera": 225
+  },
+  {
+    "rank": 254,
+    "name": "joseph joestar",
+    "kakera": 434
+  },
+  {
+    "rank": 255,
+    "name": "elma",
+    "kakera": 316
+  },
+  {
+    "rank": 256,
+    "name": "mizuki akiyama",
+    "kakera": 289
+  },
+  {
+    "rank": 257,
+    "name": "juvia lockser",
+    "kakera": 326
+  },
+  {
+    "rank": 258,
+    "name": "maki oze",
+    "kakera": 325
+  },
+  {
+    "rank": 259,
+    "name": "mew",
+    "kakera": 223
+  },
+  {
+    "rank": 260,
+    "name": "aiz wallenstein",
+    "kakera": 309
+  },
+  {
+    "rank": 261,
+    "name": "casca",
+    "kakera": 319
+  },
+  {
+    "rank": 262,
+    "name": "nanachi",
+    "kakera": 284
+  },
+  {
+    "rank": 263,
+    "name": "kanae kochou",
+    "kakera": 244
+  },
+  {
+    "rank": 264,
+    "name": "celestia ludenberg",
+    "kakera": 325
+  },
+  {
+    "rank": 265,
+    "name": "hana uzaki",
+    "kakera": 299
+  },
+  {
+    "rank": 266,
+    "name": "nero claudius",
+    "kakera": 286
+  },
+  {
+    "rank": 267,
+    "name": "shouyou hinata",
+    "kakera": 412
+  },
+  {
+    "rank": 268,
+    "name": "momo ayase",
+    "kakera": 326
+  },
+  {
+    "rank": 269,
+    "name": "raiden mei",
+    "kakera": 281
+  },
+  {
+    "rank": 270,
+    "name": "ymir",
+    "kakera": 274
+  },
+  {
+    "rank": 271,
+    "name": "mt. lady",
+    "kakera": 257
+  },
+  {
+    "rank": 272,
+    "name": "trafalgar law",
+    "kakera": 378
+  },
+  {
+    "rank": 273,
+    "name": "elizabeth liones",
+    "kakera": 288
+  },
+  {
+    "rank": 274,
+    "name": "mash kyrielight",
+    "kakera": 281
+  },
+  {
+    "rank": 275,
+    "name": "kobayashi",
+    "kakera": 296
+  },
+  {
+    "rank": 276,
+    "name": "sakura matou",
+    "kakera": 291
+  },
+  {
+    "rank": 277,
+    "name": "eri",
+    "kakera": 321
+  },
+  {
+    "rank": 278,
+    "name": "revy",
+    "kakera": 313
+  },
+  {
+    "rank": 279,
+    "name": "kiana kaslana",
+    "kakera": 283
+  },
+  {
+    "rank": 280,
+    "name": "wiz",
+    "kakera": 338
+  },
+  {
+    "rank": 281,
+    "name": "xenovia quarta",
+    "kakera": 291
+  },
+  {
+    "rank": 282,
+    "name": "nero",
+    "kakera": 344
+  },
+  {
+    "rank": 283,
+    "name": "rangiku matsumoto",
+    "kakera": 276
+  },
+  {
+    "rank": 284,
+    "name": "wojak",
+    "kakera": 156
+  },
+  {
+    "rank": 285,
+    "name": "booette",
+    "kakera": 316
+  },
+  {
+    "rank": 286,
+    "name": "spider",
+    "kakera": 235
+  },
+  {
+    "rank": 287,
+    "name": "ibuki mioda",
+    "kakera": 319
+  },
+  {
+    "rank": 288,
+    "name": "nagito komaeda",
+    "kakera": 394
+  },
+  {
+    "rank": 289,
+    "name": "caitlyn",
+    "kakera": 263
+  },
+  {
+    "rank": 290,
+    "name": "toge inumaki",
+    "kakera": 359
+  },
+  {
+    "rank": 291,
+    "name": "nelliel tu odelschwanck",
+    "kakera": 265
+  },
+  {
+    "rank": 292,
+    "name": "toph beifong",
+    "kakera": 310
+  },
+  {
+    "rank": 293,
+    "name": "kasumi miwa",
+    "kakera": 246
+  },
+  {
+    "rank": 294,
+    "name": "shinoa hiiragi",
+    "kakera": 322
+  },
+  {
+    "rank": 295,
+    "name": "alice nakiri",
+    "kakera": 319
+  },
+  {
+    "rank": 296,
+    "name": "vaporeon",
+    "kakera": 208
+  },
+  {
+    "rank": 297,
+    "name": "starfire",
+    "kakera": 280
+  },
+  {
+    "rank": 298,
+    "name": "chitoge kirisaki",
+    "kakera": 293
+  },
+  {
+    "rank": 299,
+    "name": "edward elric",
+    "kakera": 376
+  },
+  {
+    "rank": 300,
+    "name": "gunter",
+    "kakera": 170
+  },
+  {
+    "rank": 301,
+    "name": "chuuya nakahara",
+    "kakera": 373
+  },
+  {
+    "rank": 302,
+    "name": "senko",
+    "kakera": 311
+  },
+  {
+    "rank": 303,
+    "name": "rebecca",
+    "kakera": 268
+  },
+  {
+    "rank": 304,
+    "name": "foo fighters",
+    "kakera": 208
+  },
+  {
+    "rank": 305,
+    "name": "hawks",
+    "kakera": 364
+  },
+  {
+    "rank": 306,
+    "name": "uta",
+    "kakera": 236
+  },
+  {
+    "rank": 307,
+    "name": "mio akiyama",
+    "kakera": 278
+  },
+  {
+    "rank": 308,
+    "name": "leone",
+    "kakera": 280
+  },
+  {
+    "rank": 309,
+    "name": "furina",
+    "kakera": 376
+  },
+  {
+    "rank": 310,
+    "name": "hanako",
+    "kakera": 383
+  },
+  {
+    "rank": 311,
+    "name": "daki",
+    "kakera": 253
+  },
+  {
+    "rank": 312,
+    "name": "mashiro shiina",
+    "kakera": 304
+  },
+  {
+    "rank": 313,
+    "name": "lelouch lamperouge",
+    "kakera": 373
+  },
+  {
+    "rank": 314,
+    "name": "alluka zoldyck",
+    "kakera": 247
+  },
+  {
+    "rank": 315,
+    "name": "princess peach",
+    "kakera": 260
+  },
+  {
+    "rank": 316,
+    "name": "sylveon",
+    "kakera": 186
+  },
+  {
+    "rank": 317,
+    "name": "nefertari vivi",
+    "kakera": 230
+  },
+  {
+    "rank": 318,
+    "name": "rize kamishiro",
+    "kakera": 241
+  },
+  {
+    "rank": 319,
+    "name": "arataka reigen",
+    "kakera": 332
+  },
+  {
+    "rank": 320,
+    "name": "kirari momobami",
+    "kakera": 261
+  },
+  {
+    "rank": 321,
+    "name": "vegeta",
+    "kakera": 409
+  },
+  {
+    "rank": 322,
+    "name": "akaza",
+    "kakera": 309
+  },
+  {
+    "rank": 323,
+    "name": "tbh creature",
+    "kakera": 125
+  },
+  {
+    "rank": 324,
+    "name": "shalltear bloodfallen",
+    "kakera": 295
+  },
+  {
+    "rank": 325,
+    "name": "tengen uzui",
+    "kakera": 342
+  },
+  {
+    "rank": 326,
+    "name": "usada pekora",
+    "kakera": 295
+  },
+  {
+    "rank": 327,
+    "name": "mirai kuriyama",
+    "kakera": 273
+  },
+  {
+    "rank": 328,
+    "name": "eru chitanda",
+    "kakera": 286
+  },
+  {
+    "rank": 329,
+    "name": "winry rockbell",
+    "kakera": 283
+  },
+  {
+    "rank": 330,
+    "name": "shirakami fubuki",
+    "kakera": 278
+  },
+  {
+    "rank": 331,
+    "name": "stocking anarchy",
+    "kakera": 288
+  },
+  {
+    "rank": 332,
+    "name": "beatrice rz",
+    "kakera": 262
+  },
+  {
+    "rank": 333,
+    "name": "usopp",
+    "kakera": 335
+  },
+  {
+    "rank": 334,
+    "name": "holo",
+    "kakera": 287
+  },
+  {
+    "rank": 335,
+    "name": "schwi dola",
+    "kakera": 255
+  },
+  {
+    "rank": 336,
+    "name": "ereshkigal",
+    "kakera": 259
+  },
+  {
+    "rank": 337,
+    "name": "loki loki laufeyson",
+    "kakera": 232
+  },
+  {
+    "rank": 338,
+    "name": "rider",
+    "kakera": 269
+  },
+  {
+    "rank": 339,
+    "name": "osana najimi",
+    "kakera": 195
+  },
+  {
+    "rank": 340,
+    "name": "chelsea",
+    "kakera": 246
+  },
+  {
+    "rank": 341,
+    "name": "yunyun",
+    "kakera": 288
+  },
+  {
+    "rank": 342,
+    "name": "ellie",
+    "kakera": 262
+  },
+  {
+    "rank": 343,
+    "name": "crewmate",
+    "kakera": 310
+  },
+  {
+    "rank": 344,
+    "name": "nana osaki",
+    "kakera": 274
+  },
+  {
+    "rank": 345,
+    "name": "shikimori",
+    "kakera": 260
+  },
+  {
+    "rank": 346,
+    "name": "giorno giovanna",
+    "kakera": 365
+  },
+  {
+    "rank": 347,
+    "name": "mahoraga",
+    "kakera": 153
+  },
+  {
+    "rank": 348,
+    "name": "nico yazawa",
+    "kakera": 269
+  },
+  {
+    "rank": 349,
+    "name": "mei misaki",
+    "kakera": 247
+  },
+  {
+    "rank": 350,
+    "name": "mei mei",
+    "kakera": 228
+  },
+  {
+    "rank": 351,
+    "name": "ninomae ina'nis",
+    "kakera": 270
+  },
+  {
+    "rank": 352,
+    "name": "ino yamanaka",
+    "kakera": 227
+  },
+  {
+    "rank": 353,
+    "name": "destiny",
+    "kakera": 235
+  },
+  {
+    "rank": 354,
+    "name": "aerith gainsborough",
+    "kakera": 240
+  },
+  {
+    "rank": 355,
+    "name": "hello kitty",
+    "kakera": 253
+  },
+  {
+    "rank": 356,
+    "name": "mei hatsume",
+    "kakera": 227
+  },
+  {
+    "rank": 357,
+    "name": "mikan tsumiki",
+    "kakera": 273
+  },
+  {
+    "rank": 358,
+    "name": "shanks",
+    "kakera": 323
+  },
+  {
+    "rank": 359,
+    "name": "saitama",
+    "kakera": 379
+  },
+  {
+    "rank": 360,
+    "name": "ruka sarashina",
+    "kakera": 279
+  },
+  {
+    "rank": 361,
+    "name": "ilulu",
+    "kakera": 236
+  },
+  {
+    "rank": 362,
+    "name": "ryou yamada",
+    "kakera": 238
+  },
+  {
+    "rank": 363,
+    "name": "shigeo kageyama",
+    "kakera": 346
+  },
+  {
+    "rank": 364,
+    "name": "rayquaza",
+    "kakera": 192
+  },
+  {
+    "rank": 365,
+    "name": "sumi sakurasawa",
+    "kakera": 278
+  },
+  {
+    "rank": 366,
+    "name": "saiki kusuo",
+    "kakera": 342
+  },
+  {
+    "rank": 367,
+    "name": "nekomata okayu",
+    "kakera": 264
+  },
+  {
+    "rank": 368,
+    "name": "elaina",
+    "kakera": 274
+  },
+  {
+    "rank": 369,
+    "name": "all might",
+    "kakera": 319
+  },
+  {
+    "rank": 370,
+    "name": "tohka yatogami",
+    "kakera": 274
+  },
+  {
+    "rank": 371,
+    "name": "evangelion unit",
+    "kakera": 144
+  },
+  {
+    "rank": 372,
+    "name": "xiao",
+    "kakera": 378
+  },
+  {
+    "rank": 373,
+    "name": "quanxi",
+    "kakera": 249
+  },
+  {
+    "rank": 374,
+    "name": "krul tepes",
+    "kakera": 279
+  },
+  {
+    "rank": 375,
+    "name": "neco",
+    "kakera": 211
+  },
+  {
+    "rank": 376,
+    "name": "yae miko",
+    "kakera": 357
+  },
+  {
+    "rank": 377,
+    "name": "muichirou tokitou",
+    "kakera": 306
+  },
+  {
+    "rank": 378,
+    "name": "miia",
+    "kakera": 257
+  },
+  {
+    "rank": 379,
+    "name": "kiryu coco",
+    "kakera": 244
+  },
+  {
+    "rank": 380,
+    "name": "umaru doma",
+    "kakera": 236
+  },
+  {
+    "rank": 381,
+    "name": "haru okumura",
+    "kakera": 228
+  },
+  {
+    "rank": 382,
+    "name": "sylphiette",
+    "kakera": 251
+  },
+  {
+    "rank": 383,
+    "name": "diane",
+    "kakera": 261
+  },
+  {
+    "rank": 384,
+    "name": "asta",
+    "kakera": 364
+  },
+  {
+    "rank": 385,
+    "name": "alisa mikhailovna kujou",
+    "kakera": 236
+  },
+  {
+    "rank": 386,
+    "name": "kuromi",
+    "kakera": 253
+  },
+  {
+    "rank": 387,
+    "name": "azula",
+    "kakera": 254
+  },
+  {
+    "rank": 388,
+    "name": "eijirou kirishima",
+    "kakera": 316
+  },
+  {
+    "rank": 389,
+    "name": "iris",
+    "kakera": 240
+  },
+  {
+    "rank": 390,
+    "name": "yuuki",
+    "kakera": 234
+  },
+  {
+    "rank": 391,
+    "name": "leafa",
+    "kakera": 245
+  },
+  {
+    "rank": 392,
+    "name": "gudetama",
+    "kakera": 158
+  },
+  {
+    "rank": 393,
+    "name": "brook",
+    "kakera": 305
+  },
+  {
+    "rank": 394,
+    "name": "monika",
+    "kakera": 339
+  },
+  {
+    "rank": 395,
+    "name": "emma",
+    "kakera": 301
+  },
+  {
+    "rank": 396,
+    "name": "hisoka",
+    "kakera": 348
+  },
+  {
+    "rank": 397,
+    "name": "atsuko kagari",
+    "kakera": 235
+  },
+  {
+    "rank": 398,
+    "name": "snorlax",
+    "kakera": 149
+  },
+  {
+    "rank": 399,
+    "name": "gumi",
+    "kakera": 274
+  },
+  {
+    "rank": 400,
+    "name": "riza hawkeye",
+    "kakera": 237
+  },
+  {
+    "rank": 401,
+    "name": "konan",
+    "kakera": 235
+  },
+  {
+    "rank": 402,
+    "name": "pikachu species",
+    "kakera": 117
+  },
+  {
+    "rank": 403,
+    "name": "star platinum",
+    "kakera": 140
+  },
+  {
+    "rank": 404,
+    "name": "sebastian michaelis",
+    "kakera": 314
+  },
+  {
+    "rank": 405,
+    "name": "eto",
+    "kakera": 254
+  },
+  {
+    "rank": 406,
+    "name": "arceus",
+    "kakera": 162
+  },
+  {
+    "rank": 407,
+    "name": "ririka momobami",
+    "kakera": 218
+  },
+  {
+    "rank": 408,
+    "name": "aang",
+    "kakera": 254
+  },
+  {
+    "rank": 409,
+    "name": "josuke higashikata",
+    "kakera": 322
+  },
+  {
+    "rank": 410,
+    "name": "deadpool wade wilson",
+    "kakera": 280
+  },
+  {
+    "rank": 411,
+    "name": "kaoruko waguri",
+    "kakera": 236
+  },
+  {
+    "rank": 412,
+    "name": "kirito",
+    "kakera": 359
+  },
+  {
+    "rank": 413,
+    "name": "satsuki kiryuuin",
+    "kakera": 219
+  },
+  {
+    "rank": 414,
+    "name": "loid forger",
+    "kakera": 306
+  },
+  {
+    "rank": 415,
+    "name": "mikoto misaka",
+    "kakera": 258
+  },
+  {
+    "rank": 416,
+    "name": "tobio kageyama",
+    "kakera": 335
+  },
+  {
+    "rank": 417,
+    "name": "fushi",
+    "kakera": 212
+  },
+  {
+    "rank": 418,
+    "name": "shouta aizawa",
+    "kakera": 307
+  },
+  {
+    "rank": 419,
+    "name": "sephiroth",
+    "kakera": 275
+  },
+  {
+    "rank": 420,
+    "name": "tsukasa yuzaki",
+    "kakera": 245
+  },
+  {
+    "rank": 421,
+    "name": "mirajane strauss",
+    "kakera": 244
+  },
+  {
+    "rank": 422,
+    "name": "suzune horikita",
+    "kakera": 254
+  },
+  {
+    "rank": 423,
+    "name": "kenma kozume",
+    "kakera": 324
+  },
+  {
+    "rank": 424,
+    "name": "kagamine len",
+    "kakera": 297
+  },
+  {
+    "rank": 425,
+    "name": "asia argento",
+    "kakera": 228
+  },
+  {
+    "rank": 426,
+    "name": "spider",
+    "kakera": 244
+  },
+  {
+    "rank": 427,
+    "name": "princess bubblegum",
+    "kakera": 207
+  },
+  {
+    "rank": 428,
+    "name": "satella",
+    "kakera": 202
+  },
+  {
+    "rank": 429,
+    "name": "stella vermillion",
+    "kakera": 248
+  },
+  {
+    "rank": 430,
+    "name": "zhongli",
+    "kakera": 354
+  },
+  {
+    "rank": 431,
+    "name": "kim dokja",
+    "kakera": 316
+  },
+  {
+    "rank": 432,
+    "name": "goro akechi",
+    "kakera": 274
+  },
+  {
+    "rank": 433,
+    "name": "tsumugi kotobuki",
+    "kakera": 219
+  },
+  {
+    "rank": 434,
+    "name": "tsubasa hanekawa",
+    "kakera": 246
+  },
+  {
+    "rank": 435,
+    "name": "hibana",
+    "kakera": 237
+  },
+  {
+    "rank": 436,
+    "name": "the knight",
+    "kakera": 216
+  },
+  {
+    "rank": 437,
+    "name": "utahime iori",
+    "kakera": 174
+  },
+  {
+    "rank": 438,
+    "name": "azusa nakano",
+    "kakera": 214
+  },
+  {
+    "rank": 439,
+    "name": "wise mystical tree",
+    "kakera": 100
+  },
+  {
+    "rank": 440,
+    "name": "grell sutcliff",
+    "kakera": 246
+  },
+  {
+    "rank": 441,
+    "name": "tooru oikawa",
+    "kakera": 307
+  },
+  {
+    "rank": 442,
+    "name": "temari",
+    "kakera": 226
+  },
+  {
+    "rank": 443,
+    "name": "tartaglia",
+    "kakera": 334
+  },
+  {
+    "rank": 444,
+    "name": "mayuri shiina",
+    "kakera": 231
+  },
+  {
+    "rank": 445,
+    "name": "ikuyo kita",
+    "kakera": 198
+  },
+  {
+    "rank": 446,
+    "name": "katara",
+    "kakera": 242
+  },
+  {
+    "rank": 447,
+    "name": "kirara hoshi",
+    "kakera": 125
+  },
+  {
+    "rank": 448,
+    "name": "tamayo",
+    "kakera": 190
+  },
+  {
+    "rank": 449,
+    "name": "korra",
+    "kakera": 227
+  },
+  {
+    "rank": 450,
+    "name": "kushina uzumaki",
+    "kakera": 194
+  },
+  {
+    "rank": 451,
+    "name": "lofi girl",
+    "kakera": 144
+  },
+  {
+    "rank": 452,
+    "name": "kanade tachibana",
+    "kakera": 242
+  },
+  {
+    "rank": 453,
+    "name": "minato aqua",
+    "kakera": 215
+  },
+  {
+    "rank": 454,
+    "name": "spike spiegel",
+    "kakera": 270
+  },
+  {
+    "rank": 455,
+    "name": "yui yuigahama",
+    "kakera": 256
+  },
+  {
+    "rank": 456,
+    "name": "angel devil",
+    "kakera": 254
+  },
+  {
+    "rank": 457,
+    "name": "lucy el",
+    "kakera": 255
+  },
+  {
+    "rank": 458,
+    "name": "blair",
+    "kakera": 206
+  },
+  {
+    "rank": 459,
+    "name": "merlin",
+    "kakera": 249
+  },
+  {
+    "rank": 460,
+    "name": "kuroka",
+    "kakera": 197
+  },
+  {
+    "rank": 461,
+    "name": "pochita",
+    "kakera": 286
+  },
+  {
+    "rank": 462,
+    "name": "konata izumi",
+    "kakera": 199
+  },
+  {
+    "rank": 463,
+    "name": "izumi miyamura",
+    "kakera": 306
+  },
+  {
+    "rank": 464,
+    "name": "zuko",
+    "kakera": 297
+  },
+  {
+    "rank": 465,
+    "name": "arlecchino",
+    "kakera": 288
+  },
+  {
+    "rank": 466,
+    "name": "chisato nishikigi",
+    "kakera": 215
+  },
+  {
+    "rank": 467,
+    "name": "mangle",
+    "kakera": 157
+  },
+  {
+    "rank": 468,
+    "name": "kafka",
+    "kakera": 308
+  },
+  {
+    "rank": 469,
+    "name": "venti",
+    "kakera": 331
+  },
+  {
+    "rank": 470,
+    "name": "rory mercury",
+    "kakera": 217
+  },
+  {
+    "rank": 471,
+    "name": "mimikyu",
+    "kakera": 146
+  },
+  {
+    "rank": 472,
+    "name": "obanai igurou",
+    "kakera": 265
+  },
+  {
+    "rank": 473,
+    "name": "shinji ikari",
+    "kakera": 275
+  },
+  {
+    "rank": 474,
+    "name": "rimuru tempest",
+    "kakera": 330
+  },
+  {
+    "rank": 475,
+    "name": "lain iwakura",
+    "kakera": 242
+  },
+  {
+    "rank": 476,
+    "name": "madara uchiha",
+    "kakera": 301
+  },
+  {
+    "rank": 477,
+    "name": "kaede azusagawa",
+    "kakera": 219
+  },
+  {
+    "rank": 478,
+    "name": "alucard",
+    "kakera": 233
+  },
+  {
+    "rank": 479,
+    "name": "takanashi kiara",
+    "kakera": 211
+  },
+  {
+    "rank": 480,
+    "name": "carrot",
+    "kakera": 207
+  },
+  {
+    "rank": 481,
+    "name": "tomura shigaraki",
+    "kakera": 259
+  },
+  {
+    "rank": 482,
+    "name": "akiko yosano",
+    "kakera": 205
+  },
+  {
+    "rank": 483,
+    "name": "shuna",
+    "kakera": 229
+  },
+  {
+    "rank": 484,
+    "name": "uruha rushia",
+    "kakera": 224
+  },
+  {
+    "rank": 485,
+    "name": "dawn",
+    "kakera": 225
+  },
+  {
+    "rank": 486,
+    "name": "kiyoko shimizu",
+    "kakera": 216
+  },
+  {
+    "rank": 487,
+    "name": "yae sakura",
+    "kakera": 198
+  },
+  {
+    "rank": 488,
+    "name": "illyasviel von einzbern",
+    "kakera": 212
+  },
+  {
+    "rank": 489,
+    "name": "mitsuki bakugou",
+    "kakera": 160
+  },
+  {
+    "rank": 490,
+    "name": "milim nava",
+    "kakera": 253
+  },
+  {
+    "rank": 491,
+    "name": "fuyumi todoroki",
+    "kakera": 156
+  },
+  {
+    "rank": 492,
+    "name": "yuki tsukumo",
+    "kakera": 174
+  },
+  {
+    "rank": 493,
+    "name": "miko iino",
+    "kakera": 214
+  },
+  {
+    "rank": 494,
+    "name": "kei shirogane",
+    "kakera": 202
+  },
+  {
+    "rank": 495,
+    "name": "amy rose",
+    "kakera": 183
+  },
+  {
+    "rank": 496,
+    "name": "shoko ieiri",
+    "kakera": 175
+  },
+  {
+    "rank": 497,
+    "name": "aoi todo",
+    "kakera": 238
+  },
+  {
+    "rank": 498,
+    "name": "ruka urushibara",
+    "kakera": 167
+  },
+  {
+    "rank": 499,
+    "name": "anna nishikinomiya",
+    "kakera": 181
+  },
+  {
+    "rank": 500,
+    "name": "makoto yuki",
+    "kakera": 240
+  },
+  {
+    "rank": 501,
+    "name": "kenjaku",
+    "kakera": 109
+  },
+  {
+    "rank": 502,
+    "name": "sagiri izumi",
+    "kakera": 208
+  },
+  {
+    "rank": 503,
+    "name": "envy",
+    "kakera": 176
+  },
+  {
+    "rank": 504,
+    "name": "ouro kronii",
+    "kakera": 201
+  },
+  {
+    "rank": 505,
+    "name": "midari ikishima",
+    "kakera": 191
+  },
+  {
+    "rank": 506,
+    "name": "yato",
+    "kakera": 311
+  },
+  {
+    "rank": 507,
+    "name": "mai zenin",
+    "kakera": 171
+  },
+  {
+    "rank": 508,
+    "name": "nightwing dick grayson",
+    "kakera": 235
+  },
+  {
+    "rank": 509,
+    "name": "siesta",
+    "kakera": 218
+  },
+  {
+    "rank": 510,
+    "name": "jessie",
+    "kakera": 180
+  },
+  {
+    "rank": 511,
+    "name": "meme",
+    "kakera": 186
+  },
+  {
+    "rank": 512,
+    "name": "runa yomozuki",
+    "kakera": 194
+  },
+  {
+    "rank": 513,
+    "name": "nakiri ayame",
+    "kakera": 207
+  },
+  {
+    "rank": 514,
+    "name": "erwin smith",
+    "kakera": 249
+  },
+  {
+    "rank": 515,
+    "name": "bon clay",
+    "kakera": 160
+  },
+  {
+    "rank": 516,
+    "name": "diamond",
+    "kakera": 178
+  },
+  {
+    "rank": 517,
+    "name": "gyro zeppeli",
+    "kakera": 275
+  },
+  {
+    "rank": 518,
+    "name": "filo",
+    "kakera": 245
+  },
+  {
+    "rank": 519,
+    "name": "jill valentine",
+    "kakera": 207
+  },
+  {
+    "rank": 520,
+    "name": "707",
+    "kakera": 283
+  },
+  {
+    "rank": 521,
+    "name": "ceres fauna",
+    "kakera": 189
+  },
+  {
+    "rank": 522,
+    "name": "irina shidou",
+    "kakera": 176
+  },
+  {
+    "rank": 523,
+    "name": "johnny joestar",
+    "kakera": 275
+  },
+  {
+    "rank": 524,
+    "name": "senkuu ishigami",
+    "kakera": 277
+  },
+  {
+    "rank": 525,
+    "name": "wanderer",
+    "kakera": 291
+  },
+  {
+    "rank": 526,
+    "name": "lisa lisa",
+    "kakera": 222
+  },
+  {
+    "rank": 527,
+    "name": "mimosa vermillion",
+    "kakera": 200
+  },
+  {
+    "rank": 528,
+    "name": "mahito",
+    "kakera": 236
+  },
+  {
+    "rank": 529,
+    "name": "rei hino",
+    "kakera": 197
+  },
+  {
+    "rank": 530,
+    "name": "alucard hellsing",
+    "kakera": 267
+  },
+  {
+    "rank": 531,
+    "name": "kei tsukishima",
+    "kakera": 266
+  },
+  {
+    "rank": 532,
+    "name": "nayuta",
+    "kakera": 156
+  },
+  {
+    "rank": 533,
+    "name": "peko pekoyama",
+    "kakera": 202
+  },
+  {
+    "rank": 534,
+    "name": "jonathan joestar",
+    "kakera": 283
+  },
+  {
+    "rank": 535,
+    "name": "umbreon",
+    "kakera": 153
+  },
+  {
+    "rank": 536,
+    "name": "charmander",
+    "kakera": 156
+  },
+  {
+    "rank": 537,
+    "name": "ranpo edogawa",
+    "kakera": 272
+  },
+  {
+    "rank": 538,
+    "name": "9s",
+    "kakera": 213
+  },
+  {
+    "rank": 539,
+    "name": "aoi kanzaki",
+    "kakera": 141
+  },
+  {
+    "rank": 540,
+    "name": "aoi asahina",
+    "kakera": 203
+  },
+  {
+    "rank": 541,
+    "name": "serena",
+    "kakera": 207
+  },
+  {
+    "rank": 542,
+    "name": "sheele",
+    "kakera": 181
+  },
+  {
+    "rank": 543,
+    "name": "kaito",
+    "kakera": 253
+  },
+  {
+    "rank": 544,
+    "name": "delta",
+    "kakera": 227
+  },
+  {
+    "rank": 545,
+    "name": "yue",
+    "kakera": 225
+  },
+  {
+    "rank": 546,
+    "name": "franky",
+    "kakera": 248
+  },
+  {
+    "rank": 547,
+    "name": "shion tensura",
+    "kakera": 193
+  },
+  {
+    "rank": 548,
+    "name": "eula",
+    "kakera": 284
+  },
+  {
+    "rank": 549,
+    "name": "tae takemi",
+    "kakera": 191
+  },
+  {
+    "rank": 550,
+    "name": "misty",
+    "kakera": 192
+  },
+  {
+    "rank": 551,
+    "name": "manjirou sano",
+    "kakera": 288
+  },
+  {
+    "rank": 552,
+    "name": "minako aino",
+    "kakera": 163
+  },
+  {
+    "rank": 553,
+    "name": "mami tomoe",
+    "kakera": 223
+  },
+  {
+    "rank": 554,
+    "name": "meowy",
+    "kakera": 141
+  },
+  {
+    "rank": 555,
+    "name": "hiyori iki",
+    "kakera": 216
+  },
+  {
+    "rank": 556,
+    "name": "griffith",
+    "kakera": 253
+  },
+  {
+    "rank": 557,
+    "name": "bishamon",
+    "kakera": 220
+  },
+  {
+    "rank": 558,
+    "name": "yona",
+    "kakera": 218
+  },
+  {
+    "rank": 559,
+    "name": "natsu dragneel",
+    "kakera": 280
+  },
+  {
+    "rank": 560,
+    "name": "camie utsushimi",
+    "kakera": 167
+  },
+  {
+    "rank": 561,
+    "name": "nadeko sengoku",
+    "kakera": 192
+  },
+  {
+    "rank": 562,
+    "name": "chihiro ogino",
+    "kakera": 178
+  },
+  {
+    "rank": 563,
+    "name": "lady nagant",
+    "kakera": 181
+  },
+  {
+    "rank": 564,
+    "name": "gwen",
+    "kakera": 192
+  },
+  {
+    "rank": 565,
+    "name": "nana shimura",
+    "kakera": 151
+  },
+  {
+    "rank": 566,
+    "name": "touko fukawa",
+    "kakera": 194
+  },
+  {
+    "rank": 567,
+    "name": "my melody",
+    "kakera": 201
+  },
+  {
+    "rank": 568,
+    "name": "ruby rose",
+    "kakera": 239
+  },
+  {
+    "rank": 569,
+    "name": "sanemi shinazugawa",
+    "kakera": 224
+  },
+  {
+    "rank": 570,
+    "name": "makio",
+    "kakera": 146
+  },
+  {
+    "rank": 571,
+    "name": "ban",
+    "kakera": 282
+  },
+  {
+    "rank": 572,
+    "name": "tetsurou kuroo",
+    "kakera": 258
+  },
+  {
+    "rank": 573,
+    "name": "giratina",
+    "kakera": 148
+  },
+  {
+    "rank": 574,
+    "name": "kallen stadtfeld",
+    "kakera": 191
+  },
+  {
+    "rank": 575,
+    "name": "seele vollerei",
+    "kakera": 181
+  },
+  {
+    "rank": 576,
+    "name": "haruka tenou",
+    "kakera": 150
+  },
+  {
+    "rank": 577,
+    "name": "shrek",
+    "kakera": 276
+  },
+  {
+    "rank": 578,
+    "name": "chrollo lucilfer",
+    "kakera": 263
+  },
+  {
+    "rank": 579,
+    "name": "bronya zaychik",
+    "kakera": 170
+  },
+  {
+    "rank": 580,
+    "name": "miles edgeworth",
+    "kakera": 220
+  },
+  {
+    "rank": 581,
+    "name": "tooru honda",
+    "kakera": 213
+  },
+  {
+    "rank": 582,
+    "name": "kohaku",
+    "kakera": 204
+  },
+  {
+    "rank": 583,
+    "name": "diluc",
+    "kakera": 295
+  },
+  {
+    "rank": 584,
+    "name": "ritsu tainaka",
+    "kakera": 177
+  },
+  {
+    "rank": 585,
+    "name": "ahri",
+    "kakera": 266
+  },
+  {
+    "rank": 586,
+    "name": "mem",
+    "kakera": 143
+  },
+  {
+    "rank": 587,
+    "name": "denki kaminari",
+    "kakera": 258
+  },
+  {
+    "rank": 588,
+    "name": "rouge the bat",
+    "kakera": 176
+  },
+  {
+    "rank": 589,
+    "name": "uraume",
+    "kakera": 100
+  },
+  {
+    "rank": 590,
+    "name": "n",
+    "kakera": 259
+  },
+  {
+    "rank": 591,
+    "name": "tomoko kuroki",
+    "kakera": 184
+  },
+  {
+    "rank": 592,
+    "name": "mitsuru kirijo",
+    "kakera": 182
+  },
+  {
+    "rank": 593,
+    "name": "vanilla",
+    "kakera": 210
+  },
+  {
+    "rank": 594,
+    "name": "chocola",
+    "kakera": 201
+  },
+  {
+    "rank": 595,
+    "name": "mari setagaya",
+    "kakera": 214
+  },
+  {
+    "rank": 596,
+    "name": "ray aod",
+    "kakera": 191
+  },
+  {
+    "rank": 597,
+    "name": "chi",
+    "kakera": 149
+  },
+  {
+    "rank": 598,
+    "name": "takagi",
+    "kakera": 195
+  },
+  {
+    "rank": 599,
+    "name": "suma",
+    "kakera": 142
+  },
+  {
+    "rank": 600,
+    "name": "sabo",
+    "kakera": 232
+  },
+  {
+    "rank": 601,
+    "name": "tier harribel",
+    "kakera": 180
+  },
+  {
+    "rank": 602,
+    "name": "haruhi suzumiya",
+    "kakera": 195
+  },
+  {
+    "rank": 603,
+    "name": "earth",
+    "kakera": 188
+  },
+  {
+    "rank": 604,
+    "name": "vanessa enoteca",
+    "kakera": 171
+  },
+  {
+    "rank": 605,
+    "name": "nanashi mumei",
+    "kakera": 187
+  },
+  {
+    "rank": 606,
+    "name": "origami tobiichi",
+    "kakera": 193
+  },
+  {
+    "rank": 607,
+    "name": "reimu hakurei",
+    "kakera": 208
+  },
+  {
+    "rank": 608,
+    "name": "yuu nishinoya",
+    "kakera": 257
+  },
+  {
+    "rank": 609,
+    "name": "nijika ijichi",
+    "kakera": 171
+  },
+  {
+    "rank": 610,
+    "name": "naoto shirogane",
+    "kakera": 201
+  },
+  {
+    "rank": 611,
+    "name": "saeko busujima",
+    "kakera": 190
+  },
+  {
+    "rank": 612,
+    "name": "isla",
+    "kakera": 204
+  },
+  {
+    "rank": 613,
+    "name": "soi fon",
+    "kakera": 182
+  },
+  {
+    "rank": 614,
+    "name": "juuzou suzuya",
+    "kakera": 240
+  },
+  {
+    "rank": 615,
+    "name": "akai haato",
+    "kakera": 168
+  },
+  {
+    "rank": 616,
+    "name": "ryuk",
+    "kakera": 232
+  },
+  {
+    "rank": 617,
+    "name": "san",
+    "kakera": 184
+  },
+  {
+    "rank": 618,
+    "name": "ramona flowers",
+    "kakera": 183
+  },
+  {
+    "rank": 619,
+    "name": "akane owari",
+    "kakera": 161
+  },
+  {
+    "rank": 620,
+    "name": "dark magician girl",
+    "kakera": 176
+  },
+  {
+    "rank": 621,
+    "name": "hinatsuru",
+    "kakera": 132
+  },
+  {
+    "rank": 622,
+    "name": "mereoleona vermillion",
+    "kakera": 186
+  },
+  {
+    "rank": 623,
+    "name": "bayonetta",
+    "kakera": 242
+  },
+  {
+    "rank": 624,
+    "name": "blackfire",
+    "kakera": 146
+  },
+  {
+    "rank": 625,
+    "name": "genos",
+    "kakera": 255
+  },
+  {
+    "rank": 626,
+    "name": "phoenix wright",
+    "kakera": 212
+  },
+  {
+    "rank": 627,
+    "name": "roy mustang",
+    "kakera": 254
+  },
+  {
+    "rank": 628,
+    "name": "machi komachine",
+    "kakera": 172
+  },
+  {
+    "rank": 629,
+    "name": "amber",
+    "kakera": 248
+  },
+  {
+    "rank": 630,
+    "name": "muzan kibutsuji",
+    "kakera": 211
+  },
+  {
+    "rank": 631,
+    "name": "creeper",
+    "kakera": 179
+  },
+  {
+    "rank": 632,
+    "name": "gaara",
+    "kakera": 248
+  },
+  {
+    "rank": 633,
+    "name": "ciel phantomhive",
+    "kakera": 240
+  },
+  {
+    "rank": 634,
+    "name": "mavis dracula",
+    "kakera": 125
+  },
+  {
+    "rank": 635,
+    "name": "freddy fazbear",
+    "kakera": 198
+  },
+  {
+    "rank": 636,
+    "name": "ash lynx",
+    "kakera": 242
+  },
+  {
+    "rank": 637,
+    "name": "rin okumura",
+    "kakera": 239
+  },
+  {
+    "rank": 638,
+    "name": "inori yuzuriha",
+    "kakera": 200
+  },
+  {
+    "rank": 639,
+    "name": "panty anarchy",
+    "kakera": 201
+  },
+  {
+    "rank": 640,
+    "name": "vanitas",
+    "kakera": 248
+  },
+  {
+    "rank": 641,
+    "name": "wendy marvell",
+    "kakera": 186
+  },
+  {
+    "rank": 642,
+    "name": "chiikawa",
+    "kakera": 131
+  },
+  {
+    "rank": 643,
+    "name": "tamamo no mae",
+    "kakera": 176
+  },
+  {
+    "rank": 644,
+    "name": "kaeya",
+    "kakera": 269
+  },
+  {
+    "rank": 645,
+    "name": "death the kid",
+    "kakera": 245
+  },
+  {
+    "rank": 646,
+    "name": "makomo",
+    "kakera": 149
+  },
+  {
+    "rank": 647,
+    "name": "okita souji",
+    "kakera": 181
+  },
+  {
+    "rank": 648,
+    "name": "koutarou bokuto",
+    "kakera": 232
+  },
+  {
+    "rank": 649,
+    "name": "shirahoshi",
+    "kakera": 148
+  },
+  {
+    "rank": 650,
+    "name": "luigi",
+    "kakera": 233
+  },
+  {
+    "rank": 651,
+    "name": "osaka",
+    "kakera": 172
+  },
+  {
+    "rank": 652,
+    "name": "alice zuberg",
+    "kakera": 155
+  },
+  {
+    "rank": 653,
+    "name": "stephanie dola",
+    "kakera": 176
+  },
+  {
+    "rank": 654,
+    "name": "funtime foxy",
+    "kakera": 116
+  },
+  {
+    "rank": 655,
+    "name": "nessa",
+    "kakera": 183
+  },
+  {
+    "rank": 656,
+    "name": "shego",
+    "kakera": 168
+  },
+  {
+    "rank": 657,
+    "name": "miko yotsuya",
+    "kakera": 176
+  },
+  {
+    "rank": 658,
+    "name": "yoichi isagi",
+    "kakera": 243
+  },
+  {
+    "rank": 659,
+    "name": "le monke",
+    "kakera": 105
+  },
+  {
+    "rank": 660,
+    "name": "miles 'tails' prower",
+    "kakera": 196
+  },
+  {
+    "rank": 661,
+    "name": "natsuki",
+    "kakera": 253
+  },
+  {
+    "rank": 662,
+    "name": "noriaki kakyoin",
+    "kakera": 239
+  },
+  {
+    "rank": 663,
+    "name": "mario",
+    "kakera": 250
+  },
+  {
+    "rank": 664,
+    "name": "xenomorph",
+    "kakera": 122
+  },
+  {
+    "rank": 665,
+    "name": "han sooyoung",
+    "kakera": 198
+  },
+  {
+    "rank": 666,
+    "name": "kurome",
+    "kakera": 169
+  },
+  {
+    "rank": 667,
+    "name": "son gohan",
+    "kakera": 258
+  },
+  {
+    "rank": 668,
+    "name": "shishiro botan",
+    "kakera": 176
+  },
+  {
+    "rank": 669,
+    "name": "tokoyami towa",
+    "kakera": 172
+  },
+  {
+    "rank": 670,
+    "name": "rise kujikawa",
+    "kakera": 172
+  },
+  {
+    "rank": 671,
+    "name": "kosaki onodera",
+    "kakera": 184
+  },
+  {
+    "rank": 672,
+    "name": "inuyasha",
+    "kakera": 233
+  },
+  {
+    "rank": 673,
+    "name": "leorio paladiknight",
+    "kakera": 215
+  },
+  {
+    "rank": 674,
+    "name": "sans",
+    "kakera": 277
+  },
+  {
+    "rank": 675,
+    "name": "thorfinn",
+    "kakera": 238
+  },
+  {
+    "rank": 676,
+    "name": "sōsuke aizen",
+    "kakera": 244
+  },
+  {
+    "rank": 677,
+    "name": "kaworu nagisa",
+    "kakera": 224
+  },
+  {
+    "rank": 678,
+    "name": "the world",
+    "kakera": 113
+  },
+  {
+    "rank": 679,
+    "name": "yuri",
+    "kakera": 257
+  },
+  {
+    "rank": 680,
+    "name": "hanabi hyuuga",
+    "kakera": 158
+  },
+  {
+    "rank": 681,
+    "name": "espeon",
+    "kakera": 128
+  },
+  {
+    "rank": 682,
+    "name": "kotori itsuka",
+    "kakera": 184
+  },
+  {
+    "rank": 683,
+    "name": "acheron",
+    "kakera": 222
+  },
+  {
+    "rank": 684,
+    "name": "neptune",
+    "kakera": 194
+  },
+  {
+    "rank": 685,
+    "name": "genocider syo",
+    "kakera": 166
+  },
+  {
+    "rank": 686,
+    "name": "minato namikaze",
+    "kakera": 235
+  },
+  {
+    "rank": 687,
+    "name": "ami mizuno",
+    "kakera": 153
+  },
+  {
+    "rank": 688,
+    "name": "yoshikage kira",
+    "kakera": 235
+  },
+  {
+    "rank": 689,
+    "name": "yoshino",
+    "kakera": 191
+  },
+  {
+    "rank": 690,
+    "name": "evangelion unit",
+    "kakera": 97
+  },
+  {
+    "rank": 691,
+    "name": "darth vader",
+    "kakera": 210
+  },
+  {
+    "rank": 692,
+    "name": "celty sturluson",
+    "kakera": 179
+  },
+  {
+    "rank": 693,
+    "name": "kaedehara kazuha",
+    "kakera": 253
+  },
+  {
+    "rank": 694,
+    "name": "momo belia deviluke",
+    "kakera": 187
+  },
+  {
+    "rank": 695,
+    "name": "enderman",
+    "kakera": 99
+  },
+  {
+    "rank": 696,
+    "name": "tamaki amajiki",
+    "kakera": 229
+  },
+  {
+    "rank": 697,
+    "name": "lugia",
+    "kakera": 124
+  },
+  {
+    "rank": 698,
+    "name": "karma akabane",
+    "kakera": 251
+  },
+  {
+    "rank": 699,
+    "name": "mako mankanshoku",
+    "kakera": 182
+  },
+  {
+    "rank": 700,
+    "name": "shizue izawa",
+    "kakera": 160
+  },
+  {
+    "rank": 701,
+    "name": "artoria pendragon lancer",
+    "kakera": 145
+  },
+  {
+    "rank": 702,
+    "name": "nana komatsu",
+    "kakera": 186
+  },
+  {
+    "rank": 703,
+    "name": "ghislaine dedoldia",
+    "kakera": 166
+  },
+  {
+    "rank": 704,
+    "name": "trish una",
+    "kakera": 169
+  },
+  {
+    "rank": 705,
+    "name": "spongebob squarepants",
+    "kakera": 227
+  },
+  {
+    "rank": 706,
+    "name": "senpai ts",
+    "kakera": 157
+  },
+  {
+    "rank": 707,
+    "name": "vinsmoke reiju",
+    "kakera": 156
+  },
+  {
+    "rank": 708,
+    "name": "rossweisse",
+    "kakera": 166
+  },
+  {
+    "rank": 709,
+    "name": "morgiana",
+    "kakera": 205
+  },
+  {
+    "rank": 710,
+    "name": "yukari takeba",
+    "kakera": 157
+  },
+  {
+    "rank": 711,
+    "name": "ayane shirakawa",
+    "kakera": 184
+  },
+  {
+    "rank": 712,
+    "name": "lisa",
+    "kakera": 237
+  },
+  {
+    "rank": 713,
+    "name": "kagome higurashi",
+    "kakera": 161
+  },
+  {
+    "rank": 714,
+    "name": "squirtle",
+    "kakera": 113
+  },
+  {
+    "rank": 715,
+    "name": "ikumi mito",
+    "kakera": 159
+  },
+  {
+    "rank": 716,
+    "name": "pain",
+    "kakera": 218
+  },
+  {
+    "rank": 717,
+    "name": "maika sakuranomiya",
+    "kakera": 161
+  },
+  {
+    "rank": 718,
+    "name": "veliona",
+    "kakera": 144
+  },
+  {
+    "rank": 719,
+    "name": "ryuunosuke akutagawa",
+    "kakera": 214
+  },
+  {
+    "rank": 720,
+    "name": "killer queen",
+    "kakera": 112
+  },
+  {
+    "rank": 721,
+    "name": "tet",
+    "kakera": 142
+  },
+  {
+    "rank": 722,
+    "name": "sayori",
+    "kakera": 242
+  },
+  {
+    "rank": 723,
+    "name": "pyro",
+    "kakera": 132
+  },
+  {
+    "rank": 724,
+    "name": "meiko",
+    "kakera": 183
+  },
+  {
+    "rank": 725,
+    "name": "pikachu",
+    "kakera": 255
+  },
+  {
+    "rank": 726,
+    "name": "kris",
+    "kakera": 176
+  },
+  {
+    "rank": 727,
+    "name": "hua cheng",
+    "kakera": 230
+  },
+  {
+    "rank": 728,
+    "name": "sayaka maizono",
+    "kakera": 155
+  },
+  {
+    "rank": 729,
+    "name": "hanami",
+    "kakera": 101
+  },
+  {
+    "rank": 730,
+    "name": "irina jelavić",
+    "kakera": 162
+  },
+  {
+    "rank": 731,
+    "name": "fluttershy",
+    "kakera": 195
+  },
+  {
+    "rank": 732,
+    "name": "the joker",
+    "kakera": 172
+  },
+  {
+    "rank": 733,
+    "name": "aki adagaki",
+    "kakera": 154
+  },
+  {
+    "rank": 734,
+    "name": "alphonse elric",
+    "kakera": 215
+  },
+  {
+    "rank": 735,
+    "name": "rika kawai",
+    "kakera": 182
+  },
+  {
+    "rank": 736,
+    "name": "william afton",
+    "kakera": 172
+  },
+  {
+    "rank": 737,
+    "name": "keqing",
+    "kakera": 243
+  },
+  {
+    "rank": 738,
+    "name": "shikanoko noko",
+    "kakera": 148
+  },
+  {
+    "rank": 739,
+    "name": "seishiro nagi",
+    "kakera": 217
+  },
+  {
+    "rank": 740,
+    "name": "misaki ayuzawa",
+    "kakera": 171
+  },
+  {
+    "rank": 741,
+    "name": "ditto",
+    "kakera": 124
+  },
+  {
+    "rank": 742,
+    "name": "hakos baelz",
+    "kakera": 156
+  },
+  {
+    "rank": 743,
+    "name": "lola bunny",
+    "kakera": 134
+  },
+  {
+    "rank": 744,
+    "name": "aether",
+    "kakera": 204
+  },
+  {
+    "rank": 745,
+    "name": "albedo gi",
+    "kakera": 222
+  },
+  {
+    "rank": 746,
+    "name": "retsu unohana",
+    "kakera": 168
+  },
+  {
+    "rank": 747,
+    "name": "gintoki sakata",
+    "kakera": 214
+  },
+  {
+    "rank": 748,
+    "name": "chara",
+    "kakera": 190
+  },
+  {
+    "rank": 749,
+    "name": "glaceon",
+    "kakera": 126
+  },
+  {
+    "rank": 750,
+    "name": "shylily",
+    "kakera": 159
+  },
+  {
+    "rank": 751,
+    "name": "finn",
+    "kakera": 205
+  },
+  {
+    "rank": 752,
+    "name": "arcueid brunestud",
+    "kakera": 150
+  },
+  {
+    "rank": 753,
+    "name": "carnage",
+    "kakera": 124
+  },
+  {
+    "rank": 754,
+    "name": "murata himeko",
+    "kakera": 147
+  },
+  {
+    "rank": 755,
+    "name": "douma",
+    "kakera": 204
+  },
+  {
+    "rank": 756,
+    "name": "knuckles the echidna",
+    "kakera": 173
+  },
+  {
+    "rank": 757,
+    "name": "bruno bucciarati",
+    "kakera": 214
+  },
+  {
+    "rank": 758,
+    "name": "mio naruse",
+    "kakera": 176
+  },
+  {
+    "rank": 759,
+    "name": "rindou kobayashi",
+    "kakera": 175
+  },
+  {
+    "rank": 760,
+    "name": "scarlet witch wanda maximoff",
+    "kakera": 174
+  },
+  {
+    "rank": 761,
+    "name": "arthur morgan",
+    "kakera": 213
+  },
+  {
+    "rank": 762,
+    "name": "cinnamoroll",
+    "kakera": 185
+  },
+  {
+    "rank": 763,
+    "name": "super sonico",
+    "kakera": 157
+  },
+  {
+    "rank": 764,
+    "name": "akira fudou",
+    "kakera": 194
+  },
+  {
+    "rank": 765,
+    "name": "yui sao",
+    "kakera": 152
+  },
+  {
+    "rank": 766,
+    "name": "polish cow",
+    "kakera": 75
+  },
+  {
+    "rank": 767,
+    "name": "ookami mio",
+    "kakera": 163
+  },
+  {
+    "rank": 768,
+    "name": "gilgamesh",
+    "kakera": 237
+  },
+  {
+    "rank": 769,
+    "name": "kamisato ayaka",
+    "kakera": 231
+  },
+  {
+    "rank": 770,
+    "name": "legosi",
+    "kakera": 229
+  },
+  {
+    "rank": 771,
+    "name": "megumi tadokoro",
+    "kakera": 171
+  },
+  {
+    "rank": 772,
+    "name": "levy mcgarden",
+    "kakera": 162
+  },
+  {
+    "rank": 773,
+    "name": "sakuya izayoi",
+    "kakera": 199
+  },
+  {
+    "rank": 774,
+    "name": "ryu lion",
+    "kakera": 170
+  },
+  {
+    "rank": 775,
+    "name": "gir",
+    "kakera": 146
+  },
+  {
+    "rank": 776,
+    "name": "firefly",
+    "kakera": 199
+  },
+  {
+    "rank": 777,
+    "name": "seiko ayase",
+    "kakera": 153
+  },
+  {
+    "rank": 778,
+    "name": "meiko honma",
+    "kakera": 163
+  },
+  {
+    "rank": 779,
+    "name": "chel",
+    "kakera": 133
+  },
+  {
+    "rank": 780,
+    "name": "oozora subaru",
+    "kakera": 160
+  },
+  {
+    "rank": 781,
+    "name": "jessica rabbit",
+    "kakera": 127
+  },
+  {
+    "rank": 782,
+    "name": "sophie hatter",
+    "kakera": 155
+  },
+  {
+    "rank": 783,
+    "name": "yoriichi tsugikuni",
+    "kakera": 167
+  },
+  {
+    "rank": 784,
+    "name": "atsushi nakajima",
+    "kakera": 203
+  },
+  {
+    "rank": 785,
+    "name": "kokushibou",
+    "kakera": 187
+  },
+  {
+    "rank": 786,
+    "name": "frederica baumann",
+    "kakera": 128
+  },
+  {
+    "rank": 787,
+    "name": "videl",
+    "kakera": 156
+  },
+  {
+    "rank": 788,
+    "name": "obito uchiha",
+    "kakera": 215
+  },
+  {
+    "rank": 789,
+    "name": "tooru hagakure",
+    "kakera": 137
+  },
+  {
+    "rank": 790,
+    "name": "sarada uchiha",
+    "kakera": 145
+  },
+  {
+    "rank": 791,
+    "name": "kizuna ai",
+    "kakera": 160
+  },
+  {
+    "rank": 792,
+    "name": "lala satalin deviluke",
+    "kakera": 173
+  },
+  {
+    "rank": 793,
+    "name": "claire redfield",
+    "kakera": 162
+  },
+  {
+    "rank": 794,
+    "name": "mavis vermillion",
+    "kakera": 163
+  },
+  {
+    "rank": 795,
+    "name": "takina inoue",
+    "kakera": 160
+  },
+  {
+    "rank": 796,
+    "name": "koushi sugawara",
+    "kakera": 208
+  },
+  {
+    "rank": 797,
+    "name": "natsumi",
+    "kakera": 158
+  },
+  {
+    "rank": 798,
+    "name": "soul eater evans",
+    "kakera": 214
+  },
+  {
+    "rank": 799,
+    "name": "rika orimoto",
+    "kakera": 121
+  },
+  {
+    "rank": 800,
+    "name": "2d",
+    "kakera": 160
+  },
+  {
+    "rank": 801,
+    "name": "jean kirstein",
+    "kakera": 186
+  },
+  {
+    "rank": 802,
+    "name": "biscuit krueger",
+    "kakera": 156
+  },
+  {
+    "rank": 803,
+    "name": "tomo aizawa",
+    "kakera": 145
+  },
+  {
+    "rank": 804,
+    "name": "arataki itto",
+    "kakera": 221
+  },
+  {
+    "rank": 805,
+    "name": "emu otori",
+    "kakera": 199
+  },
+  {
+    "rank": 806,
+    "name": "aira shiratori",
+    "kakera": 122
+  },
+  {
+    "rank": 807,
+    "name": "twilight sparkle",
+    "kakera": 162
+  },
+  {
+    "rank": 808,
+    "name": "mei terumi",
+    "kakera": 123
+  },
+  {
+    "rank": 809,
+    "name": "bowser",
+    "kakera": 177
+  },
+  {
+    "rank": 810,
+    "name": "lumine",
+    "kakera": 215
+  },
+  {
+    "rank": 811,
+    "name": "shouya ishida",
+    "kakera": 182
+  },
+  {
+    "rank": 812,
+    "name": "princess of klaxosaurs",
+    "kakera": 143
+  },
+  {
+    "rank": 813,
+    "name": "sakura kinomoto",
+    "kakera": 180
+  },
+  {
+    "rank": 814,
+    "name": "tsunomaki watame",
+    "kakera": 160
+  },
+  {
+    "rank": 815,
+    "name": "ivan",
+    "kakera": 213
+  },
+  {
+    "rank": 816,
+    "name": "ae3803",
+    "kakera": 127
+  },
+  {
+    "rank": 817,
+    "name": "koro",
+    "kakera": 206
+  },
+  {
+    "rank": 818,
+    "name": "sakura miko",
+    "kakera": 164
+  },
+  {
+    "rank": 819,
+    "name": "vermeil",
+    "kakera": 157
+  },
+  {
+    "rank": 820,
+    "name": "ponyo",
+    "kakera": 171
+  },
+  {
+    "rank": 821,
+    "name": "nagisa shiota",
+    "kakera": 212
+  },
+  {
+    "rank": 822,
+    "name": "subaru natsuki",
+    "kakera": 226
+  },
+  {
+    "rank": 823,
+    "name": "alhaitham",
+    "kakera": 206
+  },
+  {
+    "rank": 824,
+    "name": "ironmouse",
+    "kakera": 171
+  },
+  {
+    "rank": 825,
+    "name": "caesar a. zeppeli",
+    "kakera": 187
+  },
+  {
+    "rank": 826,
+    "name": "shirogane noel",
+    "kakera": 158
+  },
+  {
+    "rank": 827,
+    "name": "flame princess",
+    "kakera": 133
+  },
+  {
+    "rank": 828,
+    "name": "sawako kuronuma",
+    "kakera": 174
+  },
+  {
+    "rank": 829,
+    "name": "ayame kajou",
+    "kakera": 143
+  },
+  {
+    "rank": 830,
+    "name": "pepe",
+    "kakera": 191
+  },
+  {
+    "rank": 831,
+    "name": "gigachad",
+    "kakera": 136
+  },
+  {
+    "rank": 832,
+    "name": "omgkawaiiangel",
+    "kakera": 172
+  },
+  {
+    "rank": 833,
+    "name": "gyoumei himejima",
+    "kakera": 165
+  },
+  {
+    "rank": 834,
+    "name": "jeanne",
+    "kakera": 168
+  },
+  {
+    "rank": 835,
+    "name": "marcille donato",
+    "kakera": 172
+  },
+  {
+    "rank": 836,
+    "name": "meruccubus",
+    "kakera": 161
+  },
+  {
+    "rank": 837,
+    "name": "yami yugi",
+    "kakera": 169
+  },
+  {
+    "rank": 838,
+    "name": "spider demon mother",
+    "kakera": 121
+  },
+  {
+    "rank": 839,
+    "name": "mikaela hyakuya",
+    "kakera": 218
+  },
+  {
+    "rank": 840,
+    "name": "rin nohara",
+    "kakera": 116
+  },
+  {
+    "rank": 841,
+    "name": "d.va",
+    "kakera": 211
+  },
+  {
+    "rank": 842,
+    "name": "zack",
+    "kakera": 200
+  },
+  {
+    "rank": 843,
+    "name": "mona",
+    "kakera": 228
+  },
+  {
+    "rank": 844,
+    "name": "seras victoria",
+    "kakera": 170
+  },
+  {
+    "rank": 845,
+    "name": "sonia nevermind",
+    "kakera": 171
+  },
+  {
+    "rank": 846,
+    "name": "scp",
+    "kakera": 127
+  },
+  {
+    "rank": 847,
+    "name": "rei miyamoto",
+    "kakera": 134
+  },
+  {
+    "rank": 848,
+    "name": "ciri",
+    "kakera": 156
+  },
+  {
+    "rank": 849,
+    "name": "the giant rat that makes all of the rules",
+    "kakera": 137
+  },
+  {
+    "rank": 850,
+    "name": "yumemi yumemite",
+    "kakera": 134
+  },
+  {
+    "rank": 851,
+    "name": "reki kyan",
+    "kakera": 206
+  },
+  {
+    "rank": 852,
+    "name": "sanic",
+    "kakera": 143
+  },
+  {
+    "rank": 853,
+    "name": "lust",
+    "kakera": 156
+  },
+  {
+    "rank": 854,
+    "name": "frisk",
+    "kakera": 172
+  },
+  {
+    "rank": 855,
+    "name": "ash ketchum",
+    "kakera": 178
+  },
+  {
+    "rank": 856,
+    "name": "collei",
+    "kakera": 137
+  },
+  {
+    "rank": 857,
+    "name": "ryuji sakamoto",
+    "kakera": 191
+  },
+  {
+    "rank": 858,
+    "name": "fu hua",
+    "kakera": 159
+  },
+  {
+    "rank": 859,
+    "name": "alastor",
+    "kakera": 205
+  },
+  {
+    "rank": 860,
+    "name": "komi shuuko",
+    "kakera": 109
+  },
+  {
+    "rank": 861,
+    "name": "narberal gamma",
+    "kakera": 158
+  },
+  {
+    "rank": 862,
+    "name": "rainbow dash",
+    "kakera": 173
+  },
+  {
+    "rank": 863,
+    "name": "jewelry bonney",
+    "kakera": 131
+  },
+  {
+    "rank": 864,
+    "name": "kurenai yuuhi",
+    "kakera": 115
+  },
+  {
+    "rank": 865,
+    "name": "poison ivy pamela isley",
+    "kakera": 154
+  },
+  {
+    "rank": 866,
+    "name": "aoi akane",
+    "kakera": 155
+  },
+  {
+    "rank": 867,
+    "name": "hinata tachibana",
+    "kakera": 162
+  },
+  {
+    "rank": 868,
+    "name": "helen parr",
+    "kakera": 114
+  },
+  {
+    "rank": 869,
+    "name": "chie satonaka",
+    "kakera": 159
+  },
+  {
+    "rank": 870,
+    "name": "yami sukehiro",
+    "kakera": 209
+  },
+  {
+    "rank": 871,
+    "name": "jinbe",
+    "kakera": 187
+  },
+  {
+    "rank": 872,
+    "name": "fiona frost",
+    "kakera": 122
+  },
+  {
+    "rank": 873,
+    "name": "aventurine",
+    "kakera": 198
+  },
+  {
+    "rank": 874,
+    "name": "freya",
+    "kakera": 149
+  },
+  {
+    "rank": 875,
+    "name": "akari watanabe",
+    "kakera": 154
+  },
+  {
+    "rank": 876,
+    "name": "kokoro",
+    "kakera": 137
+  },
+  {
+    "rank": 877,
+    "name": "star butterfly",
+    "kakera": 146
+  },
+  {
+    "rank": 878,
+    "name": "the hollow knight",
+    "kakera": 139
+  },
+  {
+    "rank": 879,
+    "name": "coraline jones",
+    "kakera": 151
+  },
+  {
+    "rank": 880,
+    "name": "may",
+    "kakera": 168
+  },
+  {
+    "rank": 881,
+    "name": "iron man tony stark",
+    "kakera": 190
+  },
+  {
+    "rank": 882,
+    "name": "toothless",
+    "kakera": 174
+  },
+  {
+    "rank": 883,
+    "name": "silica",
+    "kakera": 144
+  },
+  {
+    "rank": 884,
+    "name": "hajime hinata",
+    "kakera": 197
+  },
+  {
+    "rank": 885,
+    "name": "xie lian",
+    "kakera": 204
+  },
+  {
+    "rank": 886,
+    "name": "jean",
+    "kakera": 215
+  },
+  {
+    "rank": 887,
+    "name": "yui",
+    "kakera": 170
+  },
+  {
+    "rank": 888,
+    "name": "marnie",
+    "kakera": 162
+  },
+  {
+    "rank": 889,
+    "name": "enkidu",
+    "kakera": 136
+  },
+  {
+    "rank": 890,
+    "name": "abigail jones",
+    "kakera": 130
+  },
+  {
+    "rank": 891,
+    "name": "rebecca op",
+    "kakera": 123
+  },
+  {
+    "rank": 892,
+    "name": "sayu ogiwara",
+    "kakera": 167
+  },
+  {
+    "rank": 893,
+    "name": "morgan",
+    "kakera": 132
+  },
+  {
+    "rank": 894,
+    "name": "totoro",
+    "kakera": 179
+  },
+  {
+    "rank": 895,
+    "name": "izuna hatsuse",
+    "kakera": 143
+  },
+  {
+    "rank": 896,
+    "name": "jake",
+    "kakera": 189
+  },
+  {
+    "rank": 897,
+    "name": "yuki nagato",
+    "kakera": 177
+  },
+  {
+    "rank": 898,
+    "name": "mahiru shiina",
+    "kakera": 164
+  },
+  {
+    "rank": 899,
+    "name": "pinkie pie",
+    "kakera": 164
+  },
+  {
+    "rank": 900,
+    "name": "hitoshi shinsou",
+    "kakera": 183
+  },
+  {
+    "rank": 901,
+    "name": "kyouka izumi",
+    "kakera": 163
+  },
+  {
+    "rank": 902,
+    "name": "ahsoka tano",
+    "kakera": 144
+  },
+  {
+    "rank": 903,
+    "name": "elsa",
+    "kakera": 147
+  },
+  {
+    "rank": 904,
+    "name": "ia",
+    "kakera": 161
+  },
+  {
+    "rank": 905,
+    "name": "meguru bachira",
+    "kakera": 203
+  },
+  {
+    "rank": 906,
+    "name": "kei karuizawa",
+    "kakera": 157
+  },
+  {
+    "rank": 907,
+    "name": "yelan",
+    "kakera": 210
+  },
+  {
+    "rank": 908,
+    "name": "beidou",
+    "kakera": 215
+  },
+  {
+    "rank": 909,
+    "name": "sword maiden",
+    "kakera": 137
+  },
+  {
+    "rank": 910,
+    "name": "adult neptune",
+    "kakera": 104
+  },
+  {
+    "rank": 911,
+    "name": "übel",
+    "kakera": 142
+  },
+  {
+    "rank": 912,
+    "name": "elaine",
+    "kakera": 136
+  },
+  {
+    "rank": 913,
+    "name": "loona",
+    "kakera": 169
+  },
+  {
+    "rank": 914,
+    "name": "mai",
+    "kakera": 165
+  },
+  {
+    "rank": 915,
+    "name": "sadayo kawakami",
+    "kakera": 140
+  },
+  {
+    "rank": 916,
+    "name": "erza knightwalker",
+    "kakera": 107
+  },
+  {
+    "rank": 917,
+    "name": "lady",
+    "kakera": 150
+  },
+  {
+    "rank": 918,
+    "name": "vash the stampede",
+    "kakera": 184
+  },
+  {
+    "rank": 919,
+    "name": "bambietta basterbine",
+    "kakera": 126
+  },
+  {
+    "rank": 920,
+    "name": "kagura",
+    "kakera": 161
+  },
+  {
+    "rank": 921,
+    "name": "steve",
+    "kakera": 204
+  },
+  {
+    "rank": 922,
+    "name": "tomoe koga",
+    "kakera": 146
+  },
+  {
+    "rank": 923,
+    "name": "nemu kurotsuchi",
+    "kakera": 119
+  },
+  {
+    "rank": 924,
+    "name": "suzuha amane",
+    "kakera": 148
+  },
+  {
+    "rank": 925,
+    "name": "mirio togata",
+    "kakera": 186
+  },
+  {
+    "rank": 926,
+    "name": "marinette dupain",
+    "kakera": 153
+  },
+  {
+    "rank": 927,
+    "name": "pomni",
+    "kakera": 154
+  },
+  {
+    "rank": 928,
+    "name": "fischl",
+    "kakera": 206
+  },
+  {
+    "rank": 929,
+    "name": "foxy",
+    "kakera": 169
+  },
+  {
+    "rank": 930,
+    "name": "tashigi",
+    "kakera": 124
+  },
+  {
+    "rank": 931,
+    "name": "haruhi fujioka",
+    "kakera": 180
+  },
+  {
+    "rank": 932,
+    "name": "langa hasegawa",
+    "kakera": 196
+  },
+  {
+    "rank": 933,
+    "name": "atsumu miya",
+    "kakera": 178
+  },
+  {
+    "rank": 934,
+    "name": "kanade yoisaki",
+    "kakera": 172
+  },
+  {
+    "rank": 935,
+    "name": "rui tachibana",
+    "kakera": 165
+  },
+  {
+    "rank": 936,
+    "name": "toyomi fujiwara",
+    "kakera": 98
+  },
+  {
+    "rank": 937,
+    "name": "konjiki no yami",
+    "kakera": 172
+  },
+  {
+    "rank": 938,
+    "name": "maki nishikino",
+    "kakera": 159
+  },
+  {
+    "rank": 939,
+    "name": "alpha",
+    "kakera": 166
+  },
+  {
+    "rank": 940,
+    "name": "ray",
+    "kakera": 212
+  },
+  {
+    "rank": 941,
+    "name": "adrien agreste",
+    "kakera": 174
+  },
+  {
+    "rank": 942,
+    "name": "crusch karsten",
+    "kakera": 137
+  },
+  {
+    "rank": 943,
+    "name": "ty lee",
+    "kakera": 159
+  },
+  {
+    "rank": 944,
+    "name": "kyuubey",
+    "kakera": 119
+  },
+  {
+    "rank": 945,
+    "name": "quinella",
+    "kakera": 135
+  },
+  {
+    "rank": 946,
+    "name": "ainz ooal gown",
+    "kakera": 192
+  },
+  {
+    "rank": 947,
+    "name": "tsukasa yugi",
+    "kakera": 160
+  },
+  {
+    "rank": 948,
+    "name": "reshiram",
+    "kakera": 114
+  },
+  {
+    "rank": 949,
+    "name": "bulbasaur",
+    "kakera": 109
+  },
+  {
+    "rank": 950,
+    "name": "amity blight",
+    "kakera": 162
+  },
+  {
+    "rank": 951,
+    "name": "aqua hoshino",
+    "kakera": 172
+  },
+  {
+    "rank": 952,
+    "name": "hifumi togo",
+    "kakera": 126
+  },
+  {
+    "rank": 953,
+    "name": "sae niijima",
+    "kakera": 140
+  },
+  {
+    "rank": 954,
+    "name": "ami kawashima",
+    "kakera": 127
+  },
+  {
+    "rank": 955,
+    "name": "fami",
+    "kakera": 124
+  },
+  {
+    "rank": 956,
+    "name": "reiner braun",
+    "kakera": 177
+  },
+  {
+    "rank": 957,
+    "name": "kikuri hiroi",
+    "kakera": 132
+  },
+  {
+    "rank": 958,
+    "name": "kaho hinata",
+    "kakera": 134
+  },
+  {
+    "rank": 959,
+    "name": "lapis lazuli",
+    "kakera": 158
+  },
+  {
+    "rank": 960,
+    "name": "billie eilish",
+    "kakera": 133
+  },
+  {
+    "rank": 961,
+    "name": "yoo joonghyuk",
+    "kakera": 189
+  },
+  {
+    "rank": 962,
+    "name": "kureiji ollie",
+    "kakera": 139
+  },
+  {
+    "rank": 963,
+    "name": "genya shinazugawa",
+    "kakera": 153
+  },
+  {
+    "rank": 964,
+    "name": "kim possible",
+    "kakera": 127
+  },
+  {
+    "rank": 965,
+    "name": "kefla",
+    "kakera": 141
+  },
+  {
+    "rank": 966,
+    "name": "cinnabar",
+    "kakera": 132
+  },
+  {
+    "rank": 967,
+    "name": "james",
+    "kakera": 161
+  },
+  {
+    "rank": 968,
+    "name": "silver the hedgehog",
+    "kakera": 150
+  },
+  {
+    "rank": 969,
+    "name": "sabito",
+    "kakera": 174
+  },
+  {
+    "rank": 970,
+    "name": "shikamaru nara",
+    "kakera": 192
+  },
+  {
+    "rank": 971,
+    "name": "rohan kishibe",
+    "kakera": 183
+  },
+  {
+    "rank": 972,
+    "name": "joel",
+    "kakera": 170
+  },
+  {
+    "rank": 973,
+    "name": "tenten",
+    "kakera": 147
+  },
+  {
+    "rank": 974,
+    "name": "makoto naegi",
+    "kakera": 183
+  },
+  {
+    "rank": 975,
+    "name": "till",
+    "kakera": 193
+  },
+  {
+    "rank": 976,
+    "name": "slender man",
+    "kakera": 145
+  },
+  {
+    "rank": 977,
+    "name": "yoimiya",
+    "kakera": 200
+  },
+  {
+    "rank": 978,
+    "name": "oda nobunaga",
+    "kakera": 148
+  },
+  {
+    "rank": 979,
+    "name": "yukiko amagi",
+    "kakera": 142
+  },
+  {
+    "rank": 980,
+    "name": "mukuro ikusaba",
+    "kakera": 146
+  },
+  {
+    "rank": 981,
+    "name": "amelie azazel",
+    "kakera": 149
+  },
+  {
+    "rank": 982,
+    "name": "iroha isshiki",
+    "kakera": 151
+  },
+  {
+    "rank": 983,
+    "name": "grimmjow jaegerjaquez",
+    "kakera": 175
+  },
+  {
+    "rank": 984,
+    "name": "keiji akaashi",
+    "kakera": 182
+  },
+  {
+    "rank": 985,
+    "name": "durandal",
+    "kakera": 130
+  },
+  {
+    "rank": 986,
+    "name": "robin",
+    "kakera": 196
+  },
+  {
+    "rank": 987,
+    "name": "meliodas",
+    "kakera": 209
+  },
+  {
+    "rank": 988,
+    "name": "mayoi hachikuji",
+    "kakera": 155
+  },
+  {
+    "rank": 989,
+    "name": "charlie morningstar",
+    "kakera": 141
+  },
+  {
+    "rank": 990,
+    "name": "akita neru",
+    "kakera": 127
+  },
+  {
+    "rank": 991,
+    "name": "mari makinami illustrious",
+    "kakera": 119
+  },
+  {
+    "rank": 992,
+    "name": "beta",
+    "kakera": 153
+  },
+  {
+    "rank": 993,
+    "name": "mabel pines",
+    "kakera": 150
+  },
+  {
+    "rank": 994,
+    "name": "chica",
+    "kakera": 124
+  },
+  {
+    "rank": 995,
+    "name": "sangonomiya kokomi",
+    "kakera": 192
+  },
+  {
+    "rank": 996,
+    "name": "rock lee",
+    "kakera": 185
+  },
+  {
+    "rank": 997,
+    "name": "omaru polka",
+    "kakera": 137
+  },
+  {
+    "rank": 998,
+    "name": "koala",
+    "kakera": 124
+  },
+  {
+    "rank": 999,
+    "name": "kou minamoto",
+    "kakera": 180
+  },
+  {
+    "rank": 1000,
+    "name": "leafeon",
+    "kakera": 117
+  }
+]
