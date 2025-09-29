@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"regexp"
+	"slices"
 	"strconv"
 	"strings"
 	"time"
@@ -19,6 +21,9 @@ type CharacterMeta struct {
 
 // charactersMap maps lowercase character name -> metadata
 var charactersMap = make(map[string]CharacterMeta)
+
+// early-match regex for footers like "1 / 48"
+var footerCounterRe = regexp.MustCompile(`^\s*\d+\s*/\s*\d+\s*$`)
 
 func init() {
     file, err := os.Open("internal/common/characters.json")
@@ -94,6 +99,12 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
         return
     }
 
+    // early-return for footers that are simple counters like "1 / 48"
+    if footerCounterRe.MatchString(strings.TrimSpace(embed.Footer.Text)) {
+        // footer is an image/page counter ($im style), ignore
+        return
+    }
+
     if !strings.Contains(strings.ToLower(embed.Footer.Text), "belongs to") {
         // lookup metadata for this character
         charMeta, ok := charactersMap[strings.ToLower(embed.Author.Name)]
@@ -151,6 +162,7 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
                 return
             }
             for _, member := range guild.Members {
+                if vipUsers != nil && slices.Contains(vipUsers, member.User.ID) { continue }
                 for _, roleID := range member.Roles {
                     if roleID == sniperRoleId {
                         go func(userID string) {
