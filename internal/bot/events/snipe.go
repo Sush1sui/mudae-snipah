@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"regexp"
 	"slices"
 	"strconv"
 	"strings"
@@ -21,9 +20,6 @@ type CharacterMeta struct {
 
 // charactersMap maps lowercase character name -> metadata
 var charactersMap = make(map[string]CharacterMeta)
-
-// early-match regex for footers like "1 / 48"
-var footerCounterRe = regexp.MustCompile(`^\s*\d+\s*/\s*\d+\s*$`)
 
 func init() {
     file, err := os.Open("internal/common/characters.json")
@@ -100,8 +96,24 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
     }
 
     // early-return for footers that are simple counters like "1 / 48"
-    if footerCounterRe.MatchString(strings.TrimSpace(embed.Footer.Text)) {
-        // footer is an image/page counter ($im style), ignore
+    footerText := strings.TrimSpace(embed.Footer.Text)
+    parts := strings.Split(footerText, "/")
+    allInts := len(parts) > 1
+    if allInts {
+        for _, p := range parts {
+            p = strings.TrimSpace(p)
+            if p == "" {
+                allInts = false
+                break
+            }
+            if _, err := strconv.Atoi(p); err != nil {
+                allInts = false
+                break
+            }
+        }
+    }
+    if allInts {
+        // footer looks like an image/page counter (e.g. "1 / 48") — ignore
         return
     }
 
