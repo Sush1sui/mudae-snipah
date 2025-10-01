@@ -5,6 +5,11 @@
     "kakera": 1065
   },
   {
+    "rank": 1,
+    "name": "#1,000 - leafeon",
+    "kakera": 117
+  },
+  {
     "rank": 2,
     "name": "hatsune miku",
     "kakera": 1038
@@ -536,7 +541,7 @@
   },
   {
     "rank": 108,
-    "name": "artoria pendragon alter",
+    "name": "artoria pendragon (alter)",
     "kakera": 421
   },
   {
@@ -811,7 +816,7 @@
   },
   {
     "rank": 163,
-    "name": "jeanne d'arc alter",
+    "name": "jeanne d'arc (alter)",
     "kakera": 352
   },
   {
@@ -1136,7 +1141,7 @@
   },
   {
     "rank": 228,
-    "name": "harley quinn harleen quinzel",
+    "name": "harley quinn (harleen quinzel)",
     "kakera": 298
   },
   {
@@ -1236,7 +1241,7 @@
   },
   {
     "rank": 248,
-    "name": "batman bruce wayne",
+    "name": "batman (bruce wayne)",
     "kakera": 401
   },
   {
@@ -1656,7 +1661,7 @@
   },
   {
     "rank": 332,
-    "name": "beatrice rz",
+    "name": "beatrice (rz)",
     "kakera": 262
   },
   {
@@ -1681,7 +1686,7 @@
   },
   {
     "rank": 337,
-    "name": "loki loki laufeyson",
+    "name": "loki (loki laufeyson)",
     "kakera": 232
   },
   {
@@ -2006,7 +2011,7 @@
   },
   {
     "rank": 402,
-    "name": "pikachu species",
+    "name": "pikachu (species)",
     "kakera": 117
   },
   {
@@ -2046,7 +2051,7 @@
   },
   {
     "rank": 410,
-    "name": "deadpool wade wilson",
+    "name": "deadpool (wade wilson)",
     "kakera": 280
   },
   {
@@ -2281,7 +2286,7 @@
   },
   {
     "rank": 457,
-    "name": "lucy el",
+    "name": "lucy (el)",
     "kakera": 255
   },
   {
@@ -2536,7 +2541,7 @@
   },
   {
     "rank": 508,
-    "name": "nightwing dick grayson",
+    "name": "nightwing (dick grayson)",
     "kakera": 235
   },
   {
@@ -2646,7 +2651,7 @@
   },
   {
     "rank": 530,
-    "name": "alucard hellsing",
+    "name": "alucard (hellsing)",
     "kakera": 267
   },
   {
@@ -2731,7 +2736,7 @@
   },
   {
     "rank": 547,
-    "name": "shion tensura",
+    "name": "shion (tensura)",
     "kakera": 193
   },
   {
@@ -2976,7 +2981,7 @@
   },
   {
     "rank": 596,
-    "name": "ray aod",
+    "name": "ray (aod)",
     "kakera": 191
   },
   {
@@ -3501,7 +3506,7 @@
   },
   {
     "rank": 701,
-    "name": "artoria pendragon lancer",
+    "name": "artoria pendragon (lancer)",
     "kakera": 145
   },
   {
@@ -3526,7 +3531,7 @@
   },
   {
     "rank": 706,
-    "name": "senpai ts",
+    "name": "senpai (ts)",
     "kakera": 157
   },
   {
@@ -3721,7 +3726,7 @@
   },
   {
     "rank": 745,
-    "name": "albedo gi",
+    "name": "albedo (gi)",
     "kakera": 222
   },
   {
@@ -3796,7 +3801,7 @@
   },
   {
     "rank": 760,
-    "name": "scarlet witch wanda maximoff",
+    "name": "scarlet witch (wanda maximoff)",
     "kakera": 174
   },
   {
@@ -3821,7 +3826,7 @@
   },
   {
     "rank": 765,
-    "name": "yui sao",
+    "name": "yui (sao)",
     "kakera": 152
   },
   {
@@ -4186,7 +4191,7 @@
   },
   {
     "rank": 838,
-    "name": "spider demon mother",
+    "name": "spider demon (mother)",
     "kakera": 121
   },
   {
@@ -4321,7 +4326,7 @@
   },
   {
     "rank": 865,
-    "name": "poison ivy pamela isley",
+    "name": "poison ivy (pamela isley)",
     "kakera": 154
   },
   {
@@ -4401,7 +4406,7 @@
   },
   {
     "rank": 881,
-    "name": "iron man tony stark",
+    "name": "iron man (tony stark)",
     "kakera": 190
   },
   {
@@ -4451,7 +4456,7 @@
   },
   {
     "rank": 891,
-    "name": "rebecca op",
+    "name": "rebecca (op)",
     "kakera": 123
   },
   {
@@ -4993,10 +4998,5 @@
     "rank": 999,
     "name": "kou minamoto",
     "kakera": 180
-  },
-  {
-    "rank": 1000,
-    "name": "leafeon",
-    "kakera": 117
   }
 ]
