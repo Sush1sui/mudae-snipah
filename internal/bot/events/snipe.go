@@ -82,9 +82,6 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
     if m.Author.ID != "432610292342587392" {
         return
     }
-    if m.ChannelID != os.Getenv("MUDAE_CHANNEL_ID") {
-        return
-    }
 
     if len(m.Embeds) == 0 || m.Embeds[0] == nil {
         return
