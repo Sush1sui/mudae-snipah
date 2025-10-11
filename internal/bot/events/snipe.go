@@ -21,6 +21,25 @@ type CharacterMeta struct {
 // charactersMap maps lowercase character name -> metadata
 var charactersMap = make(map[string]CharacterMeta)
 
+// add fast-path globals for env + DM queue
+var (
+    vipUsers    []string
+    vipSet      map[string]struct{}
+    sniperRole  string
+    secretDelay time.Duration
+
+    dmQueue    chan dmJob
+    dmWorkers  = 6
+    queueSize  = 256
+)
+
+type dmJob struct {
+    session *discordgo.Session
+    userID  string
+    content string
+    embed   *discordgo.MessageEmbed
+}
+
 func init() {
     file, err := os.Open("internal/common/characters.json")
     if err != nil {
@@ -74,25 +93,73 @@ func init() {
         charactersMap[strings.ToLower(name)] = meta
         count++
     }
-
     fmt.Println("Characters loaded successfully from characters.json with", count, "entries.")
+
+    // parse environment once
+    rawVIP := os.Getenv("SNIPER_VIP_USERS")
+    vipSet = make(map[string]struct{})
+    if rawVIP != "" {
+        for _, id := range strings.Split(rawVIP, ",") {
+            id = strings.TrimSpace(id)
+            if id == "" {
+                continue
+            }
+            vipUsers = append(vipUsers, id)
+            vipSet[id] = struct{}{}
+        }
+    }
+    sniperRole = strings.TrimSpace(os.Getenv("SNIPER_ROLE_ID"))
+    sec := os.Getenv("secret")
+    if sec == "" {
+        sec = "5"
+    }
+    if n, err := strconv.Atoi(sec); err == nil {
+        secretDelay = time.Duration(n) * time.Second
+    } else {
+        secretDelay = 5 * time.Second
+    }
+
+    // start DM worker pool
+    dmQueue = make(chan dmJob, queueSize)
+    for i := 0; i < dmWorkers; i++ {
+        go func(id int) {
+            for job := range dmQueue {
+                dmCh, err := job.session.UserChannelCreate(job.userID)
+                if err != nil {
+                    fmt.Println("DM worker: create channel error:", err)
+                    continue
+                }
+                if job.content != "" {
+                    if _, err := job.session.ChannelMessageSend(dmCh.ID, job.content); err != nil {
+                        fmt.Println("DM worker: send text error:", err)
+                        continue
+                    }
+                }
+                if job.embed != nil {
+                    if _, err := job.session.ChannelMessageSendComplex(dmCh.ID, &discordgo.MessageSend{Embed: job.embed}); err != nil {
+                        fmt.Println("DM worker: send embed error:", err)
+                        continue
+                    }
+                }
+            }
+        }(i)
+    }
 }
 
 func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
+    // quick early checks
     if m.Author.ID != "432610292342587392" {
         return
     }
-
     if len(m.Embeds) == 0 || m.Embeds[0] == nil {
         return
     }
     embed := m.Embeds[0]
-
     if embed == nil || embed.Footer == nil || embed.Author == nil {
         return
     }
 
-    // early-return for footers that are simple counters like "1 / 48"
+    // skip "1 / 48" style footers
     footerText := strings.TrimSpace(embed.Footer.Text)
     parts := strings.Split(footerText, "/")
     allInts := len(parts) > 1
@@ -109,100 +176,56 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
             }
         }
     }
-    if allInts {
-        // footer looks like an image/page counter (e.g. "1 / 48") — ignore
+    if allInts { return }
+
+    // require "belongs to" (adjust if your logic differs)
+    if !strings.Contains(strings.ToLower(footerText), "belongs to") {
         return
     }
 
-    if !strings.Contains(strings.ToLower(embed.Footer.Text), "belongs to") {
-        // lookup metadata for this character
-        charMeta, ok := charactersMap[strings.ToLower(embed.Author.Name)]
-        if ok {
-            fmt.Println("Top character found:", embed.Author.Name)
-            vipUsers := strings.Split(os.Getenv("SNIPER_VIP_USERS"), ",")
-            for _, id := range vipUsers {
-                id = strings.TrimSpace(id)
-                if id == "" {
-                    continue
-                }
-                go func(userID string) {
-                    user, err := s.User(userID)
-                    if err != nil || user == nil {
-                        fmt.Println("Error fetching user:", err)
-                        return
-                    }
-                    dmChannel, err := s.UserChannelCreate(userID)
-                    if err != nil {
-                        fmt.Println("Error creating DM channel:", err)
-						return
-                    }
+    // lookup metadata (use preloaded map)
+    key := strings.ToLower(strings.TrimSpace(embed.Author.Name))
+    charMeta, ok := charactersMap[key]
+    if !ok { return }
 
-                    // Construct the jump link
-                    messageURL := fmt.Sprintf("https://discord.com/channels/%s/%s/%s", m.GuildID, m.ChannelID, m.ID)
-                    content := fmt.Sprintf("# A top character `%s` has appeared! Rank: %d, Kakera: %d. Click here to jump to the message: %s",
-                        embed.Author.Name, charMeta.Rank, charMeta.Kakera, messageURL)
+    // build notification content once
+    messageURL := fmt.Sprintf("https://discord.com/channels/%s/%s/%s", m.GuildID, m.ChannelID, m.ID)
+    content := fmt.Sprintf("A top character `%s` has appeared! Rank: %d, Kakera: %d. Jump: %s",
+        embed.Author.Name, charMeta.Rank, charMeta.Kakera, messageURL)
 
-                    _, err = s.ChannelMessageSendComplex(dmChannel.ID, &discordgo.MessageSend{
-                        Content: content,
-                        Embed:   embed,
-                    })
-                    if err != nil {
-                        fmt.Println("Error sending DM:", err)
-                        return
-                    }
-                }(id)
-            }
-            secret := os.Getenv("secret")
-            secretInt, err := strconv.Atoi(secret)
-            if err != nil {
-                fmt.Println("Error converting secret to int:", err)
-                return
-            }
-            time.Sleep(time.Duration(secretInt) * time.Second)
-            // get all users who have a role with id=os.Getenv("SNIPER_ROLE_ID") in the guild
-            guild, err := s.State.Guild(m.GuildID)
-            if err != nil {
-                fmt.Println("Error fetching guild from state:", err)
-                return
-            }
-            sniperRoleId := os.Getenv("SNIPER_ROLE_ID")
-            if sniperRoleId == "" {
-                fmt.Println("SNIPER_ROLE_ID not set in environment variables")
-                return
-            }
-            for _, member := range guild.Members {
-                if vipUsers != nil && slices.Contains(vipUsers, member.User.ID) { continue }
-                for _, roleID := range member.Roles {
-                    if roleID == sniperRoleId {
-                        go func(userID string) {
-                            user, err := s.User(userID)
-                            if err != nil || user == nil {
-                                fmt.Println("Error fetching user:", err)
-                                return
-                            }
-                            dmChannel, err := s.UserChannelCreate(userID)
-                            if err != nil {
-                                fmt.Println("Error creating DM channel:", err)
-                                return
-                            }
+    // enqueue VIP DMs very quickly
+    for _, id := range vipUsers {
+        enqueueDM(s, id, content, embed)
+    }
 
-                            // Construct the jump link
-                            messageURL := fmt.Sprintf("https://discord.com/channels/%s/%s/%s", m.GuildID, m.ChannelID, m.ID)
-                            content := fmt.Sprintf("# A top character `%s` has appeared!. Click here to jump to the message: %s",
-                                embed.Author.Name, messageURL)
-
-                            _, err = s.ChannelMessageSendComplex(dmChannel.ID, &discordgo.MessageSend{
-                                Content: content,
-                                Embed:   embed,
-                            })
-                            if err != nil {
-                                fmt.Println("Error sending DM:", err)
-                                return
-                            }
-                        }(member.User.ID)
-                    }
-                }
+    // schedule role notifications after delay without blocking handler
+    time.AfterFunc(secretDelay, func() {
+        guild, err := s.State.Guild(m.GuildID)
+        if err != nil {
+            fmt.Println("Error fetching guild from state:", err)
+            return
+        }
+        for _, member := range guild.Members {
+            // skip VIPs via map O(1)
+            if _, ok := vipSet[member.User.ID]; ok {
+                continue
+            }
+            // check role membership
+            if slices.Contains(member.Roles, sniperRole) {
+                roleContent := fmt.Sprintf("Top character `%s` appeared — %s", embed.Author.Name, messageURL)
+                enqueueDM(s, member.User.ID, roleContent, embed)
             }
         }
+    })
+}
+
+
+// helper: enqueue DM non-blocking
+func enqueueDM(s *discordgo.Session, userID, content string, embed *discordgo.MessageEmbed) {
+    select {
+    case dmQueue <- dmJob{session: s, userID: userID, content: content, embed: embed}:
+    default:
+        // queue full — drop and log to avoid blocking event loop
+        fmt.Println("DM queue full; dropped DM for", userID)
     }
 }
