@@ -1,6 +1,8 @@
 module github.com/Sush1sui/sniper_bot
 
-go 1.24
+go 1.23
+
+toolchain go1.23.11
 
 require (
 	github.com/bwmarrin/discordgo v0.29.0
