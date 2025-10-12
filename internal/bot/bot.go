@@ -6,8 +6,10 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
 
 	"github.com/Sush1sui/sniper_bot/internal/bot/deploy"
+	"github.com/Sush1sui/sniper_bot/internal/common"
 	"github.com/Sush1sui/sniper_bot/internal/config"
 	"github.com/bwmarrin/discordgo"
 )
@@ -25,15 +27,22 @@ func StartBot() {
 	sess.Identify.Intents = discordgo.IntentsAllWithoutPrivileged | discordgo.IntentsGuildPresences | discordgo.IntentsGuildMembers | discordgo.IntentsGuildMessages
 
 	sess.AddHandler(func(s *discordgo.Session, r *discordgo.Ready) {
-    s.UpdateStatusComplex(discordgo.UpdateStatusData{
-        Status: "idle",
-        Activities: []*discordgo.Activity{
-            {
-                Name: "Mudae!",
-                Type: discordgo.ActivityTypeListening,
-            },
-        },
-    })
+		s.UpdateStatusComplex(discordgo.UpdateStatusData{
+			Status: "idle",
+			Activities: []*discordgo.Activity{
+				{
+					Name: "Mudae!",
+					Type: discordgo.ActivityTypeListening,
+				},
+			},
+		})
+
+		// run after Ready to list readable channels
+		go func() {
+			// wait a bit for state to populate
+			time.Sleep(1 * time.Second)
+			common.ListReadableChannels(sess)
+		}()
 	})
 
 	err = sess.Open()

@@ -178,10 +178,10 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
     }
     if allInts { return }
 
+    fmt.Printf("Character: %s", embed.Author.Name)
+
     // require "belongs to" (adjust if your logic differs)
-    if !strings.Contains(strings.ToLower(footerText), "belongs to") {
-        return
-    }
+    if !strings.Contains(strings.ToLower(footerText), "belongs to") { return }
 
     // lookup metadata (use preloaded map)
     key := strings.ToLower(strings.TrimSpace(embed.Author.Name))
