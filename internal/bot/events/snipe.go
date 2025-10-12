@@ -108,6 +108,9 @@ func init() {
             vipSet[id] = struct{}{}
         }
     }
+
+    fmt.Println("Loaded VIP users:", vipUsers)
+
     sniperRole = strings.TrimSpace(os.Getenv("SNIPER_ROLE_ID"))
     sec := os.Getenv("secret")
     if sec == "" {
@@ -124,11 +127,13 @@ func init() {
     for i := 0; i < dmWorkers; i++ {
         go func(id int) {
             for job := range dmQueue {
+                fmt.Println("DM worker:", id, "attempting DM to", job.userID)
                 dmCh, err := job.session.UserChannelCreate(job.userID)
                 if err != nil {
                     fmt.Println("DM worker: create channel error:", err)
                     continue
                 }
+                fmt.Println("DM worker:", id, "created DM channel", dmCh.ID, "for", job.userID)
                 if job.content != "" {
                     if _, err := job.session.ChannelMessageSend(dmCh.ID, job.content); err != nil {
                         fmt.Println("DM worker: send text error:", err)
@@ -137,10 +142,11 @@ func init() {
                 }
                 if job.embed != nil {
                     if _, err := job.session.ChannelMessageSendComplex(dmCh.ID, &discordgo.MessageSend{Embed: job.embed}); err != nil {
-                        fmt.Println("DM worker: send embed error:", err)
+                        fmt.Println("DM worker:", id, "send embed error for", job.userID, ":", err)
                         continue
                     }
                 }
+                fmt.Println("DM worker:", id, "DM sent to", job.userID)
             }
         }(i)
     }
@@ -178,7 +184,7 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
     }
     if allInts { return }
 
-    fmt.Printf("Character: %s", embed.Author.Name)
+    fmt.Printf("Character: %s\n", embed.Author.Name)
 
     // require "belongs to" (adjust if your logic differs)
     if !strings.Contains(strings.ToLower(footerText), "belongs to") { return }
@@ -224,6 +230,10 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
 func enqueueDM(s *discordgo.Session, userID, content string, embed *discordgo.MessageEmbed) {
     select {
     case dmQueue <- dmJob{session: s, userID: userID, content: content, embed: embed}:
+        user, err := s.User(userID)
+        if err == nil {
+            fmt.Println("Enqueued DM for:", user.Username)
+        }
     default:
         // queue full — drop and log to avoid blocking event loop
         fmt.Println("DM queue full; dropped DM for", userID)
