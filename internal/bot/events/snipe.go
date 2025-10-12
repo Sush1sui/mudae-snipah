@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/Sush1sui/sniper_bot/internal/common"
+	"github.com/Sush1sui/sniper_bot/internal/config"
 	"github.com/bwmarrin/discordgo"
 )
 
@@ -21,14 +22,7 @@ type CharacterMeta struct {
 
 // charactersMap maps lowercase character name -> metadata
 var charactersMap = make(map[string]CharacterMeta)
-
-// add fast-path globals for env + DM queue
-var (
-    vipUsers    []string
-    vipSet      map[string]struct{}
-    sniperRole  string
-    secretDelay time.Duration
-)
+var secretDelay time.Duration
 
 func init() {
     file, err := os.Open("internal/common/characters.json")
@@ -85,23 +79,6 @@ func init() {
     }
     fmt.Println("Characters loaded successfully from characters.json with", count, "entries.")
 
-    // parse environment once
-    rawVIP := os.Getenv("SNIPER_VIP_USERS")
-    vipSet = make(map[string]struct{})
-    if rawVIP != "" {
-        for _, id := range strings.Split(rawVIP, ",") {
-            id = strings.TrimSpace(id)
-            if id == "" {
-                continue
-            }
-            vipUsers = append(vipUsers, id)
-            vipSet[id] = struct{}{}
-        }
-    }
-
-    fmt.Println("Loaded VIP users:", vipUsers)
-
-    sniperRole = strings.TrimSpace(os.Getenv("SNIPER_ROLE_ID"))
     sec := os.Getenv("secret")
     if sec == "" {
         sec = "5"
@@ -111,6 +88,7 @@ func init() {
     } else {
         secretDelay = 5 * time.Second
     }
+    fmt.Println("Secret delay set to", secretDelay)
 }
 
 func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
@@ -163,7 +141,7 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
         embed.Author.Name, charMeta.Rank, charMeta.Kakera, messageURL)
 
     // enqueue VIP DMs very quickly
-    for _, id := range vipUsers {
+    for _, id := range config.GlobalConfig.VIPs {
         go func(userID string) {
             common.DmUser(s, userID, content, embed)
         }(id)
@@ -177,12 +155,10 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
             return
         }
         for _, member := range guild.Members {
-            // skip VIPs via map O(1)
-            if _, ok := vipSet[member.User.ID]; ok {
-                continue
-            }
+            // skip VIPs
+            if slices.Contains(config.GlobalConfig.VIPs, member.User.ID) { continue }
             // check role membership
-            if slices.Contains(member.Roles, sniperRole) {
+            if slices.Contains(member.Roles, config.GlobalConfig.MoodengRoleID) {
                 roleContent := fmt.Sprintf("Top character `%s` appeared — %s", embed.Author.Name, messageURL)
                 common.DmUser(s, member.User.ID, roleContent, embed)
             }

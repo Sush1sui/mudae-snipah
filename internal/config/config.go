@@ -3,16 +3,19 @@ package config
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/joho/godotenv"
 )
 
 // Config holds the application's configuration
 type Config struct {
-	DiscordToken string
-	ServerPort   string
-	AppID        string
-	ServerURL    string
+	DiscordToken 	string
+	ServerPort   	string
+	AppID        	string
+	ServerURL      	string
+	VIPs           	[]string
+	MoodengRoleID  	string
 }
 
 var GlobalConfig Config
@@ -27,6 +30,8 @@ func LoadConfig() (error) {
 		ServerPort:   os.Getenv("SERVER_PORT"),
 		AppID:        os.Getenv("APP_ID"),
 		ServerURL:    os.Getenv("SERVER_URL"),
+		VIPs:         strings.Split(os.Getenv("SNIPER_VIP_USERS"), ","),
+		MoodengRoleID: os.Getenv("SNIPER_ROLE_ID"),
 	}
 	return nil
 }
