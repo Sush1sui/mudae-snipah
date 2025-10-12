@@ -186,13 +186,15 @@ func OnSnipeMudae(s *discordgo.Session, m *discordgo.MessageCreate) {
 
     fmt.Printf("Character: %s\n", embed.Author.Name)
 
-    // require "belongs to" (adjust if your logic differs)
-    if !strings.Contains(strings.ToLower(footerText), "belongs to") { return }
+    // early exit if "belongs to" is present
+    if strings.Contains(strings.ToLower(footerText), "belongs to") { return }
 
     // lookup metadata (use preloaded map)
     key := strings.ToLower(strings.TrimSpace(embed.Author.Name))
     charMeta, ok := charactersMap[key]
     if !ok { return }
+
+    fmt.Printf("Character metadata found: %+v\n", charMeta)
 
     // build notification content once
     messageURL := fmt.Sprintf("https://discord.com/channels/%s/%s/%s", m.GuildID, m.ChannelID, m.ID)
