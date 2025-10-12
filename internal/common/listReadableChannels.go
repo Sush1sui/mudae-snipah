@@ -44,8 +44,6 @@ func ListReadableChannels(s *discordgo.Session) {
 
             if canView && canReadHistory {
                 fmt.Printf("Readable: guild=%s(%s) channel=%s(%s)\n", g.Name, g.ID, ch.Name, ch.ID)
-            } else {
-                fmt.Printf("Not readable: guild=%s(%s) channel=%s(%s) perms=%b\n", g.Name, g.ID, ch.Name, ch.ID, perms)
             }
         }
     }
